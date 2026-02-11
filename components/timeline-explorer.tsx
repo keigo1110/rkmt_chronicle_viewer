@@ -15,6 +15,7 @@ type OcrEntry = {
 };
 
 const MAX_SUGGESTIONS = 10;
+const HINT_STORAGE_KEY = "chronicle.viewer.hint.dismissed.v1";
 type OSDViewer = import("openseadragon").Viewer;
 
 function normalizeQuery(input: string): string {
@@ -26,21 +27,48 @@ function normalizeQuery(input: string): string {
     .trim();
 }
 
+function clipContext(text: string, query: string, maxLength = 78): string {
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  const token = query.split(" ").find((piece) => piece.length >= 2) ?? "";
+  if (!token) {
+    return `${text.slice(0, maxLength).trimEnd()}...`;
+  }
+
+  const lowerText = normalizeQuery(text);
+  const index = lowerText.indexOf(token);
+  if (index < 0) {
+    return `${text.slice(0, maxLength).trimEnd()}...`;
+  }
+
+  const start = Math.max(0, index - Math.floor((maxLength - token.length) / 2));
+  const end = Math.min(text.length, start + maxLength);
+  const prefix = start > 0 ? "..." : "";
+  const suffix = end < text.length ? "..." : "";
+  return `${prefix}${text.slice(start, end).trim()}${suffix}`;
+}
+
+function suggestionDomId(id: string): string {
+  return `suggestion-${id.replace(/[^a-zA-Z0-9_-]/g, "-")}`;
+}
+
 export default function TimelineExplorer() {
   const viewerRef = useRef<HTMLDivElement | null>(null);
+  const searchRef = useRef<HTMLDivElement | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
   const osdRef = useRef<OSDViewer | null>(null);
   const activeOverlayRef = useRef<HTMLElement | null>(null);
-  const overlayTimerRef = useRef<number | null>(null);
   const initialQueryHandledRef = useRef(false);
 
   const [entries, setEntries] = useState<OcrEntry[]>([]);
   const [isReady, setIsReady] = useState(false);
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isInputFocused, setIsInputFocused] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [showHint, setShowHint] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -85,12 +113,38 @@ export default function TimelineExplorer() {
 
     return () => {
       disposed = true;
-      if (overlayTimerRef.current) {
-        window.clearTimeout(overlayTimerRef.current);
-      }
       viewer?.destroy();
       osdRef.current = null;
     };
+  }, []);
+
+  useEffect(() => {
+    let timer: number | null = null;
+    try {
+      const dismissed = window.localStorage.getItem(HINT_STORAGE_KEY) === "1";
+      if (!dismissed) {
+        setShowHint(true);
+        timer = window.setTimeout(() => setShowHint(false), 8000);
+      }
+    } catch {
+      setShowHint(true);
+      timer = window.setTimeout(() => setShowHint(false), 8000);
+    }
+
+    return () => {
+      if (timer) {
+        window.clearTimeout(timer);
+      }
+    };
+  }, []);
+
+  const dismissHint = useCallback(() => {
+    setShowHint(false);
+    try {
+      window.localStorage.setItem(HINT_STORAGE_KEY, "1");
+    } catch {
+      // no-op
+    }
   }, []);
 
   useEffect(() => {
@@ -144,6 +198,60 @@ export default function TimelineExplorer() {
   }, [fuse, query]);
 
   const visibleMatches = matches.slice(0, MAX_SUGGESTIONS);
+  const normalizedQuery = normalizeQuery(query);
+  const activeSuggestionIndex =
+    visibleMatches.length === 0 ? 0 : Math.min(activeIndex, visibleMatches.length - 1);
+  const shouldShowSuggestions = isSearchOpen && isInputFocused && query.length > 0;
+
+  const lineEntries = useMemo(
+    () => entries.filter((entry) => entry.kind === "line"),
+    [entries]
+  );
+
+  const wordContextMap = useMemo(() => {
+    const map = new Map<string, string>();
+
+    for (const entry of entries) {
+      if (entry.kind !== "word") {
+        continue;
+      }
+
+      const [x, y, w, h] = entry.bbox;
+      const centerX = x + w / 2;
+      const centerY = y + h / 2;
+
+      let selectedLine: OcrEntry | null = null;
+      let selectedArea = Number.POSITIVE_INFINITY;
+
+      for (const line of lineEntries) {
+        const [lx, ly, lw, lh] = line.bbox;
+        const containsX = centerX >= lx && centerX <= lx + lw;
+        const containsY = centerY >= ly && centerY <= ly + lh;
+        if (!containsX || !containsY) {
+          continue;
+        }
+        const area = lw * lh;
+        if (area < selectedArea) {
+          selectedArea = area;
+          selectedLine = line;
+        }
+      }
+
+      if (selectedLine) {
+        map.set(entry.id, selectedLine.text);
+      }
+    }
+
+    return map;
+  }, [entries, lineEntries]);
+
+  const getSuggestionContext = useCallback(
+    (entry: OcrEntry) => {
+      const source = entry.kind === "word" ? wordContextMap.get(entry.id) ?? entry.text : entry.text;
+      return clipContext(source, normalizedQuery);
+    },
+    [normalizedQuery, wordContextMap]
+  );
 
   const clearOverlay = useCallback(() => {
     const viewer = osdRef.current;
@@ -153,10 +261,6 @@ export default function TimelineExplorer() {
       viewer.removeOverlay(element);
     }
 
-    if (overlayTimerRef.current) {
-      window.clearTimeout(overlayTimerRef.current);
-      overlayTimerRef.current = null;
-    }
     activeOverlayRef.current = null;
   }, []);
 
@@ -180,11 +284,8 @@ export default function TimelineExplorer() {
         location: rect
       });
       activeOverlayRef.current = overlay;
-      overlayTimerRef.current = window.setTimeout(() => {
-        clearOverlay();
-      }, 1800);
     },
-    [clearOverlay, isReady]
+    [isReady, clearOverlay]
   );
 
   const jumpToMatch = useCallback(
@@ -194,7 +295,6 @@ export default function TimelineExplorer() {
         return;
       }
       setActiveIndex(index);
-      setSelectedIndex(index);
       focusBounds(entry);
     },
     [focusBounds, matches]
@@ -214,7 +314,6 @@ export default function TimelineExplorer() {
 
   useEffect(() => {
     setActiveIndex(0);
-    setSelectedIndex(null);
   }, [query]);
 
   useEffect(() => {
@@ -243,14 +342,33 @@ export default function TimelineExplorer() {
   }, [isSearchOpen]);
 
   useEffect(() => {
+    function onPointerDown(event: MouseEvent) {
+      const target = event.target as Node | null;
+      if (!target) {
+        return;
+      }
+      if (searchRef.current?.contains(target)) {
+        return;
+      }
+      setIsSearchOpen(false);
+      setIsInputFocused(false);
+      inputRef.current?.blur();
+    }
+
+    window.addEventListener("mousedown", onPointerDown);
+    return () => window.removeEventListener("mousedown", onPointerDown);
+  }, []);
+
+  useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
+      const target = event.target as HTMLElement | null;
+      const isTyping =
+        !!target &&
+        (target.tagName === "INPUT" ||
+          target.tagName === "TEXTAREA" ||
+          target.isContentEditable);
+
       if (event.key === "/") {
-        const target = event.target as HTMLElement | null;
-        const isTyping =
-          !!target &&
-          (target.tagName === "INPUT" ||
-            target.tagName === "TEXTAREA" ||
-            target.isContentEditable);
         if (!isTyping) {
           event.preventDefault();
           setIsSearchOpen(true);
@@ -261,12 +379,12 @@ export default function TimelineExplorer() {
         setIsSearchOpen(false);
         inputRef.current?.blur();
       }
-      if (event.key === "n" && matches.length > 0) {
+      if (!isTyping && event.key === "n" && matches.length > 0) {
         event.preventDefault();
         const nextIndex = (activeIndex + 1) % matches.length;
         jumpToMatch(nextIndex);
       }
-      if (event.key === "p" && matches.length > 0) {
+      if (!isTyping && event.key === "p" && matches.length > 0) {
         event.preventDefault();
         const nextIndex = (activeIndex - 1 + matches.length) % matches.length;
         jumpToMatch(nextIndex);
@@ -275,13 +393,13 @@ export default function TimelineExplorer() {
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [activeIndex, jumpToMatch, matches.length, isSearchOpen]);
+  }, [activeIndex, jumpToMatch, matches.length]);
 
   return (
     <main className="page-shell">
       <section className="viewer-shell">
         <div className="topbar">
-          <div className={`search-block ${isSearchOpen ? "is-open" : ""}`}>
+          <div ref={searchRef} className={`search-block ${isSearchOpen ? "is-open" : ""}`}>
             <div className="search-shell">
               <button
                 type="button"
@@ -308,8 +426,25 @@ export default function TimelineExplorer() {
                 onBlur={() => window.setTimeout(() => setIsInputFocused(false), 120)}
                 onChange={(event) => setQuery(event.target.value)}
                 onKeyDown={(event) => {
+                  if (event.key === "ArrowDown") {
+                    if (visibleMatches.length > 0) {
+                      event.preventDefault();
+                      setActiveIndex(
+                        (prev) => (Math.min(prev, visibleMatches.length - 1) + 1) % visibleMatches.length
+                      );
+                    }
+                    return;
+                  }
+                  if (event.key === "ArrowUp") {
+                    if (visibleMatches.length > 0) {
+                      event.preventDefault();
+                      const base = Math.min(activeIndex, visibleMatches.length - 1);
+                      setActiveIndex((base - 1 + visibleMatches.length) % visibleMatches.length);
+                    }
+                    return;
+                  }
                   if (event.key === "Enter" && matches.length > 0) {
-                    jumpToMatch(activeIndex);
+                    jumpToMatch(activeSuggestionIndex);
                     inputRef.current?.blur();
                   }
                 }}
@@ -317,25 +452,39 @@ export default function TimelineExplorer() {
                 placeholder="Search timeline text... (/)"
                 spellCheck={false}
                 tabIndex={isSearchOpen ? 0 : -1}
+                role="combobox"
+                aria-autocomplete="list"
+                aria-expanded={shouldShowSuggestions}
+                aria-controls="timeline-suggestions"
+                aria-activedescendant={
+                  shouldShowSuggestions && visibleMatches[activeSuggestionIndex]
+                    ? suggestionDomId(visibleMatches[activeSuggestionIndex].id)
+                    : undefined
+                }
               />
             </div>
-            {isSearchOpen && isInputFocused && query && (
-              <div className="suggestions">
+            {shouldShowSuggestions && (
+              <div className="suggestions" role="listbox" id="timeline-suggestions">
                 {visibleMatches.length === 0 ? (
                   <p className="suggestion-empty">No match</p>
                 ) : (
                   visibleMatches.map((entry, index) => (
                     <button
                       key={entry.id}
+                      id={suggestionDomId(entry.id)}
                       className={`suggestion-item ${index === activeIndex ? "is-active" : ""}`}
                       onMouseDown={(event) => event.preventDefault()}
+                      onMouseEnter={() => setActiveIndex(index)}
                       onClick={() => jumpToMatch(index)}
                       type="button"
+                      role="option"
+                      aria-selected={index === activeIndex}
                     >
-                      <span>{entry.text}</span>
-                      <span className="suggestion-meta">
-                        {(entry.conf * 100).toFixed(0)}%
+                      <span className="suggestion-copy">
+                        <span className="suggestion-title">{entry.text}</span>
+                        <span className="suggestion-context">{getSuggestionContext(entry)}</span>
                       </span>
+                      <span className="suggestion-meta">{(entry.conf * 100).toFixed(0)}%</span>
                     </button>
                   ))
                 )}
@@ -345,6 +494,18 @@ export default function TimelineExplorer() {
         </div>
 
         <div ref={viewerRef} className="viewer-canvas" />
+
+        {showHint && (
+          <aside className="hint-card" role="status">
+            <p>
+              <kbd>/</kbd> で検索、<kbd>↑</kbd>/<kbd>↓</kbd> で候補移動、<kbd>Enter</kbd> でジャンプ、
+              <kbd>n</kbd>/<kbd>p</kbd> で巡回できます。
+            </p>
+            <button type="button" onClick={dismissHint}>
+              閉じる
+            </button>
+          </aside>
+        )}
       </section>
       {error && <p className="error-banner">{error}</p>}
     </main>

@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0",
     "prepare:assets": "node scripts/prepare-assets.mjs",
     "prepare:tiles": "node scripts/generate-deepzoom.mjs",
     "prepare:ocr": "node scripts/generate-ocr.mjs"
@@ -23,7 +23,8 @@
     "@types/openseadragon": "^4.1.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.12",
     "typescript": "^5.7.2"
   }
 }
-
