@@ -1,0 +1,322 @@
+:root {
+  color-scheme: dark;
+  --bg-top: #0f1119;
+  --bg-mid: #151923;
+  --bg-bottom: #090a0f;
+  --panel: rgba(18, 23, 35, 0.82);
+  --panel-border: rgba(255, 255, 255, 0.14);
+  --text-main: #eff2f8;
+  --text-sub: #a6b0c4;
+  --accent: #5ad7ff;
+  --accent-strong: #8be6ff;
+  --highlight: #ffe46d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family:
+    "Avenir Next",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "Segoe UI",
+    sans-serif;
+  color: var(--text-main);
+  background:
+    radial-gradient(1100px 500px at 20% 5%, #24324f 0%, transparent 65%),
+    linear-gradient(160deg, var(--bg-top) 0%, var(--bg-mid) 45%, var(--bg-bottom) 100%);
+}
+
+.page-shell {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.viewer-shell {
+  position: relative;
+  height: calc(100vh - 2rem);
+  border-radius: 18px;
+  border: 1px solid var(--panel-border);
+  overflow: hidden;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.36);
+}
+
+.viewer-canvas {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.topbar {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  right: 0.9rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.search-block,
+.status-block,
+.toolbar {
+  pointer-events: auto;
+}
+
+.search-block {
+  width: 2.6rem;
+  position: relative;
+  transition: width 220ms ease;
+}
+
+.search-block.is-open {
+  width: min(620px, 86vw);
+}
+
+.search-shell {
+  border: 1px solid var(--panel-border);
+  border-radius: 999px;
+  background: var(--panel);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.14rem;
+  overflow: hidden;
+}
+
+.search-toggle {
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.search-toggle:hover {
+  background: rgba(90, 215, 255, 0.14);
+  color: var(--accent-strong);
+}
+
+.search-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.search-toggle svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
+.search-input {
+  width: 100%;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-main);
+  padding: 0.55rem 0.85rem 0.55rem 0.28rem;
+  outline: none;
+  opacity: 0;
+  transform: translateX(6px);
+  pointer-events: none;
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+
+.search-block.is-open .search-input {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.search-input:focus {
+  box-shadow: none;
+}
+
+.suggestions {
+  margin-top: 0.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--panel-border);
+  background: rgba(12, 16, 25, 0.94);
+  max-height: min(320px, 46vh);
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+}
+
+.suggestion-item {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: transparent;
+  color: var(--text-main);
+  text-align: left;
+  padding: 0.6rem 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.7rem;
+  cursor: pointer;
+}
+
+.suggestion-item:hover,
+.suggestion-item.is-active {
+  background: rgba(90, 215, 255, 0.14);
+}
+
+.suggestion-meta {
+  color: var(--text-sub);
+  font-variant-numeric: tabular-nums;
+}
+
+.suggestion-empty {
+  margin: 0;
+  padding: 0.8rem;
+  color: var(--text-sub);
+}
+
+.status-block {
+  border-radius: 999px;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  backdrop-filter: blur(6px);
+  padding: 0.45rem 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.84rem;
+}
+
+.divider {
+  width: 1px;
+  height: 0.9rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.toolbar {
+  position: absolute;
+  left: 0.9rem;
+  right: 0.9rem;
+  bottom: 0.9rem;
+  border-radius: 12px;
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem;
+  z-index: 20;
+}
+
+.toolbar button {
+  border: 1px solid var(--panel-border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--text-main);
+  border-radius: 8px;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.toolbar button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.active-caption {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #dce8ff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.active-caption.muted {
+  color: var(--text-sub);
+}
+
+.error-banner {
+  margin-top: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 129, 129, 0.3);
+  background: rgba(255, 78, 78, 0.13);
+  color: #ffacac;
+}
+
+.highlight-overlay {
+  border: 2px solid var(--highlight);
+  box-shadow:
+    0 0 0 4px rgba(255, 228, 109, 0.28),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.72);
+  background: rgba(255, 228, 109, 0.2);
+  border-radius: 3px;
+  animation: pulse-highlight 1.8s ease-out forwards;
+}
+
+@keyframes pulse-highlight {
+  0% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  75% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-shell {
+    padding: 0.55rem;
+  }
+
+  .viewer-shell {
+    height: calc(100vh - 1.1rem);
+    border-radius: 14px;
+  }
+
+  .topbar {
+    justify-content: flex-end;
+  }
+
+  .search-block {
+    width: 2.6rem;
+  }
+
+  .search-block.is-open {
+    width: min(94vw, 680px);
+  }
+
+  .toolbar {
+    gap: 0.45rem;
+    flex-wrap: wrap;
+  }
+
+  .active-caption {
+    flex: 1 1 100%;
+  }
+}
+

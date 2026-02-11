@@ -1,0 +1,6164 @@
+[
+  {
+    "id": "line-1:1:1:1",
+    "text": "Laboratoire Révolutionnaire et Romantique",
+    "norm": "laboratoire révolutionnaire et romantique",
+    "bbox": [
+      240,
+      63,
+      991,
+      50
+    ],
+    "conf": 0.8629457825,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:2:1:1",
+    "text": "Easy-Tagging Cam",
+    "norm": "easy tagging cam",
+    "bbox": [
+      2035,
+      53,
+      599,
+      65
+    ],
+    "conf": 0.9371268100000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:3:1:1",
+    "text": "Social life logging",
+    "norm": "social life logging",
+    "bbox": [
+      2847,
+      41,
+      566,
+      65
+    ],
+    "conf": 0.9628844700000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:4:1:1",
+    "text": "Investigating Bodily Responses",
+    "norm": "investigating bodily responses",
+    "bbox": [
+      4727,
+      32,
+      808,
+      51
+    ],
+    "conf": 0.96001643,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:5:1:1",
+    "text": "oe",
+    "norm": "oe",
+    "bbox": [
+      5793,
+      32,
+      115,
+      70
+    ],
+    "conf": 0.7303677399999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:7:1:1",
+    "text": "Conditions for Inter-brain Synchronization",
+    "norm": "conditions for inter brain synchronization",
+    "bbox": [
+      7497,
+      49,
+      1073,
+      52
+    ],
+    "conf": 0.9459601775,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:8:1:1",
+    "text": "Temporal Phase Shift",
+    "norm": "temporal phase shift",
+    "bbox": [
+      3123,
+      124,
+      684,
+      64
+    ],
+    "conf": 0.96504397,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:10:1:1",
+    "text": "to Unknown Words",
+    "norm": "to unknown words",
+    "bbox": [
+      4875,
+      92,
+      492,
+      41
+    ],
+    "conf": 0.9616053533333333,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:11:1:1",
+    "text": "a",
+    "norm": "a",
+    "bbox": [
+      5798,
+      124,
+      17,
+      10
+    ],
+    "conf": 0.49217219999999995,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:12:1:1",
+    "text": "y,",
+    "norm": "y",
+    "bbox": [
+      5963,
+      126,
+      11,
+      22
+    ],
+    "conf": 0.66971725,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:13:1:1",
+    "text": "Design in Action",
+    "norm": "design in action",
+    "bbox": [
+      6457,
+      89,
+      518,
+      64
+    ],
+    "conf": 0.9575854499999998,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:14:1:1",
+    "text": "ce =",
+    "norm": "ce",
+    "bbox": [
+      7212,
+      125,
+      76,
+      44
+    ],
+    "conf": 0.37121601,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:15:1:1",
+    "text": "in Remote Communication bo",
+    "norm": "in remote communication bo",
+    "bbox": [
+      7694,
+      104,
+      840,
+      143
+    ],
+    "conf": 0.8626087200000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:16:1:1",
+    "text": "HappinessCounter",
+    "norm": "happinesscounter",
+    "bbox": [
+      2418,
+      170,
+      604,
+      76
+    ],
+    "conf": 0.92395607,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:17:1:1",
+    "text": "suGATALOG",
+    "norm": "sugatalog",
+    "bbox": [
+      3309,
+      189,
+      392,
+      52
+    ],
+    "conf": 0.9187810500000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:18:1:1",
+    "text": "a ©",
+    "norm": "a",
+    "bbox": [
+      3962,
+      179,
+      149,
+      64
+    ],
+    "conf": 0.69189602,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:19:1:1",
+    "text": "I",
+    "norm": "i",
+    "bbox": [
+      4733,
+      160,
+      8,
+      36
+    ],
+    "conf": 0.55340363,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:20:1:1",
+    "text": "gures in scholarly papers",
+    "norm": "gures in scholarly papers",
+    "bbox": [
+      4748,
+      146,
+      806,
+      64
+    ],
+    "conf": 0.94788311,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:21:1:1",
+    "text": "Ext",
+    "norm": "ext",
+    "bbox": [
+      5715,
+      168,
+      99,
+      50
+    ],
+    "conf": 0.96623558,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:22:1:1",
+    "text": "of",
+    "norm": "of",
+    "bbox": [
+      5826,
+      50,
+      147,
+      196
+    ],
+    "conf": 0.23852440000000003,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:23:1:1",
+    "text": "Ssion",
+    "norm": "ssion",
+    "bbox": [
+      5958,
+      181,
+      208,
+      55
+    ],
+    "conf": 0.42340668000000004,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:24:1:1",
+    "text": "Serendipity Wall",
+    "norm": "serendipity wall",
+    "bbox": [
+      7680,
+      161,
+      514,
+      65
+    ],
+    "conf": 0.961701315,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:25:1:1",
+    "text": "LifeTag",
+    "norm": "lifetag",
+    "bbox": [
+      1001,
+      208,
+      231,
+      76
+    ],
+    "conf": 0.88729645,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:26:1:1",
+    "text": "o)",
+    "norm": "o",
+    "bbox": [
+      1909,
+      234,
+      32,
+      26
+    ],
+    "conf": 0.63140381,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:27:1:1",
+    "text": "8 Storming",
+    "norm": "8 storming",
+    "bbox": [
+      5368,
+      224,
+      347,
+      65
+    ],
+    "conf": 0.961987345,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:28:1:1",
+    "text": "Oa",
+    "norm": "oa",
+    "bbox": [
+      6099,
+      268,
+      37,
+      44
+    ],
+    "conf": 0.25524721,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:29:1:1",
+    "text": "Demonstrating Virtural Teamwork",
+    "norm": "demonstrating virtural teamwork",
+    "bbox": [
+      6915,
+      216,
+      856,
+      51
+    ],
+    "conf": 0.93347435,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:30:1:1",
+    "text": "HoloArm",
+    "norm": "holoarm",
+    "bbox": [
+      7772,
+      252,
+      274,
+      51
+    ],
+    "conf": 0.90285576,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:31:1:1",
+    "text": "Sq",
+    "norm": "sq",
+    "bbox": [
+      3007,
+      280,
+      81,
+      64
+    ],
+    "conf": 0.94331467,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:32:1:1",
+    "text": "Mi",
+    "norm": "mi",
+    "bbox": [
+      3760,
+      266,
+      74,
+      60
+    ],
+    "conf": 0.89507668,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:33:1:1",
+    "text": "ook &»",
+    "norm": "ook",
+    "bbox": [
+      3969,
+      266,
+      262,
+      68
+    ],
+    "conf": 0.56212489,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:34:1:1",
+    "text": "NquaCAVE A",
+    "norm": "nquacave a",
+    "bbox": [
+      4520,
+      264,
+      415,
+      67
+    ],
+    "conf": 0.7512498099999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:35:1:1",
+    "text": "2",
+    "norm": "2",
+    "bbox": [
+      5028,
+      296,
+      17,
+      13
+    ],
+    "conf": 0.47046772,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:36:1:1",
+    "text": "—>ExtVision Deep dive",
+    "norm": "extvision deep dive",
+    "bbox": [
+      5270,
+      298,
+      801,
+      72
+    ],
+    "conf": 0.8466681666666667,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:38:1:1",
+    "text": "Promethe",
+    "norm": "promethe",
+    "bbox": [
+      6937,
+      323,
+      299,
+      51
+    ],
+    "conf": 0.9163542200000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:39:1:1",
+    "text": "with Synchrobots",
+    "norm": "with synchrobots",
+    "bbox": [
+      7138,
+      275,
+      448,
+      52
+    ],
+    "conf": 0.9231267550000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:40:1:1",
+    "text": "Jaku-in",
+    "norm": "jaku in",
+    "bbox": [
+      7792,
+      312,
+      233,
+      51
+    ],
+    "conf": 0.9174188200000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:42:1:1",
+    "text": "ames",
+    "norm": "ames",
+    "bbox": [
+      3548,
+      414,
+      38,
+      28
+    ],
+    "conf": 0.28515812,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:43:1:1",
+    "text": "Around me",
+    "norm": "around me",
+    "bbox": [
+      3750,
+      364,
+      352,
+      51
+    ],
+    "conf": 0.95950935,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:45:1:1",
+    "text": "ar",
+    "norm": "ar",
+    "bbox": [
+      4636,
+      398,
+      27,
+      4
+    ],
+    "conf": 0.31101078,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:48:1:1",
+    "text": "istant",
+    "norm": "istant",
+    "bbox": [
+      2925,
+      400,
+      184,
+      59
+    ],
+    "conf": 0.90704666,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:49:1:1",
+    "text": "i,",
+    "norm": "i",
+    "bbox": [
+      3127,
+      191,
+      122,
+      289
+    ],
+    "conf": 0.7744889100000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:50:1:1",
+    "text": "Quan",
+    "norm": "quan",
+    "bbox": [
+      3683,
+      439,
+      165,
+      56
+    ],
+    "conf": 0.9634059100000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:51:1:1",
+    "text": "realli",
+    "norm": "realli",
+    "bbox": [
+      4032,
+      440,
+      126,
+      51
+    ],
+    "conf": 0.8267529299999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:52:1:1",
+    "text": "Oculus",
+    "norm": "oculus",
+    "bbox": [
+      4625,
+      428,
+      40,
+      11
+    ],
+    "conf": 0.7936502799999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:53:1:1",
+    "text": "Jackin Head ag OMMIGAZE",
+    "norm": "jackin head ag ommigaze",
+    "bbox": [
+      4937,
+      335,
+      745,
+      172
+    ],
+    "conf": 0.629802615,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:54:1:1",
+    "text": "InterPoser PoseAsQuery",
+    "norm": "interposer poseasquery",
+    "bbox": [
+      5758,
+      378,
+      792,
+      65
+    ],
+    "conf": 0.9001068499999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:55:1:1",
+    "text": "Skillsinterpreter |",
+    "norm": "skillsinterpreter",
+    "bbox": [
+      7656,
+      374,
+      533,
+      99
+    ],
+    "conf": 0.773578035,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:56:1:1",
+    "text": "FastPerson",
+    "norm": "fastperson",
+    "bbox": [
+      7729,
+      444,
+      358,
+      51
+    ],
+    "conf": 0.9214479799999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:57:1:1",
+    "text": "Ma petite chérie",
+    "norm": "ma petite chérie",
+    "bbox": [
+      2867,
+      479,
+      515,
+      64
+    ],
+    "conf": 0.9135983033333333,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:58:1:1",
+    "text": "uppleView",
+    "norm": "uppleview",
+    "bbox": [
+      5763,
+      443,
+      330,
+      63
+    ],
+    "conf": 0.90118019,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:59:1:1",
+    "text": "De",
+    "norm": "de",
+    "bbox": [
+      7203,
+      492,
+      37,
+      18
+    ],
+    "conf": 0.57855988,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:60:1:1",
+    "text": "oF",
+    "norm": "of",
+    "bbox": [
+      8140,
+      166,
+      392,
+      519
+    ],
+    "conf": 0.5647668800000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:62:1:1",
+    "text": "Jackin Airsoft",
+    "norm": "jackin airsoft",
+    "bbox": [
+      4932,
+      516,
+      441,
+      51
+    ],
+    "conf": 0.64050232,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:63:1:1",
+    "text": "2",
+    "norm": "2",
+    "bbox": [
+      5865,
+      562,
+      17,
+      15
+    ],
+    "conf": 0.6652104900000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:65:1:1",
+    "text": "Aged Eyes",
+    "norm": "aged eyes",
+    "bbox": [
+      7738,
+      513,
+      343,
+      64
+    ],
+    "conf": 0.96587032,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:66:1:1",
+    "text": "Peripheral vision annotation",
+    "norm": "peripheral vision annotation",
+    "bbox": [
+      2254,
+      547,
+      927,
+      120
+    ],
+    "conf": 0.96438418,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:67:1:1",
+    "text": "L DAR AN Jackin Space",
+    "norm": "l dar an jackin space",
+    "bbox": [
+      4547,
+      548,
+      828,
+      115
+    ],
+    "conf": 0.930032166,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:69:1:1",
+    "text": "a?",
+    "norm": "a",
+    "bbox": [
+      6538,
+      603,
+      59,
+      42
+    ],
+    "conf": 0.46814621,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:70:1:1",
+    "text": "Re",
+    "norm": "re",
+    "bbox": [
+      6846,
+      612,
+      73,
+      50
+    ],
+    "conf": 0.9657553900000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:71:1:1",
+    "text": "nHanger",
+    "norm": "nhanger",
+    "bbox": [
+      7116,
+      612,
+      271,
+      64
+    ],
+    "conf": 0.92243698,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:72:1:1",
+    "text": "Juicy Text",
+    "norm": "juicy text",
+    "bbox": [
+      7733,
+      594,
+      320,
+      64
+    ],
+    "conf": 0.96874119,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:73:1:1",
+    "text": "rele",
+    "norm": "rele",
+    "bbox": [
+      2529,
+      642,
+      164,
+      103
+    ],
+    "conf": 0.61367889,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:74:1:1",
+    "text": "NaturalE",
+    "norm": "naturale",
+    "bbox": [
+      2902,
+      677,
+      271,
+      51
+    ],
+    "conf": 0.9102549000000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:75:1:1",
+    "text": "Falcoher",
+    "norm": "falcoher",
+    "bbox": [
+      5769,
+      647,
+      276,
+      51
+    ],
+    "conf": 0.90984482,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:76:1:1",
+    "text": "wy,",
+    "norm": "wy",
+    "bbox": [
+      6953,
+      598,
+      150,
+      102
+    ],
+    "conf": 0.31706543,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:77:1:1",
+    "text": "Kuroko Paradigm",
+    "norm": "kuroko paradigm",
+    "bbox": [
+      7634,
+      670,
+      554,
+      64
+    ],
+    "conf": 0.94462784,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:78:1:1",
+    "text": "Aided eye",
+    "norm": "aided eye",
+    "bbox": [
+      2142,
+      674,
+      323,
+      75
+    ],
+    "conf": 0.966368755,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:80:1:1",
+    "text": "Parallel Eyes",
+    "norm": "parallel eyes",
+    "bbox": [
+      4516,
+      710,
+      418,
+      75
+    ],
+    "conf": 0.9633374,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:81:1:1",
+    "text": "Behind-the-mask",
+    "norm": "behind the mask",
+    "bbox": [
+      5255,
+      702,
+      545,
+      51
+    ],
+    "conf": 0.8993944500000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:82:1:1",
+    "text": "Retina",
+    "norm": "retina",
+    "bbox": [
+      7087,
+      726,
+      191,
+      51
+    ],
+    "conf": 0.73884468,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:83:1:1",
+    "text": "Display",
+    "norm": "display",
+    "bbox": [
+      7602,
+      726,
+      233,
+      94
+    ],
+    "conf": 0.96952164,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:84:1:1",
+    "text": "NoseKno",
+    "norm": "nosekno",
+    "bbox": [
+      8001,
+      745,
+      289,
+      51
+    ],
+    "conf": 0.87725876,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:86:1:1",
+    "text": "ula \\",
+    "norm": "ula",
+    "bbox": [
+      933,
+      720,
+      250,
+      178
+    ],
+    "conf": 0.78118412,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:88:1:1",
+    "text": "GazeC",
+    "norm": "gazec",
+    "bbox": [
+      2962,
+      760,
+      199,
+      52
+    ],
+    "conf": 0.6610144,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:89:1:1",
+    "text": "Ne ws",
+    "norm": "ne ws",
+    "bbox": [
+      3270,
+      801,
+      61,
+      23
+    ],
+    "conf": 0.38364341500000004,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:90:1:1",
+    "text": "WithYou",
+    "norm": "withyou",
+    "bbox": [
+      4634,
+      794,
+      262,
+      51
+    ],
+    "conf": 0.91697266,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:91:1:1",
+    "text": "ds",
+    "norm": "ds",
+    "bbox": [
+      5121,
+      781,
+      86,
+      83
+    ],
+    "conf": 0.40075855,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:92:1:1",
+    "text": "Jackl",
+    "norm": "jackl",
+    "bbox": [
+      5703,
+      765,
+      166,
+      51
+    ],
+    "conf": 0.9040744,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:93:1:1",
+    "text": "Hap",
+    "norm": "hap",
+    "bbox": [
+      6121,
+      765,
+      125,
+      63
+    ],
+    "conf": 0.96826607,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:94:1:1",
+    "text": "er",
+    "norm": "er",
+    "bbox": [
+      6498,
+      778,
+      62,
+      38
+    ],
+    "conf": 0.96831375,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:95:1:1",
+    "text": "ny?",
+    "norm": "ny",
+    "bbox": [
+      7456,
+      789,
+      74,
+      54
+    ],
+    "conf": 0.27838245,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:96:1:1",
+    "text": "1",
+    "norm": "1",
+    "bbox": [
+      2687,
+      837,
+      38,
+      35
+    ],
+    "conf": 0.21329819,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:97:1:1",
+    "text": "9",
+    "norm": "9",
+    "bbox": [
+      2732,
+      879,
+      16,
+      15
+    ],
+    "conf": 0.41589260000000006,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:98:1:1",
+    "text": "SubMe",
+    "norm": "subme",
+    "bbox": [
+      5807,
+      833,
+      225,
+      52
+    ],
+    "conf": 0.92784607,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:99:1:1",
+    "text": "DDSupport",
+    "norm": "ddsupport",
+    "bbox": [
+      6560,
+      833,
+      353,
+      64
+    ],
+    "conf": 0.91076408,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:102:1:1",
+    "text": "Rr gy",
+    "norm": "rr gy",
+    "bbox": [
+      7748,
+      887,
+      129,
+      33
+    ],
+    "conf": 0.365941815,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:103:1:1",
+    "text": "Dynamik",
+    "norm": "dynamik",
+    "bbox": [
+      8174,
+      850,
+      274,
+      64
+    ],
+    "conf": 0.92956436,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:104:1:1",
+    "text": "Flyingyéyes",
+    "norm": "flyingyéyes",
+    "bbox": [
+      2549,
+      883,
+      356,
+      64
+    ],
+    "conf": 0.81686508,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:105:1:1",
+    "text": "LiveSphere",
+    "norm": "livesphere",
+    "bbox": [
+      3751,
+      829,
+      355,
+      121
+    ],
+    "conf": 0.92985535,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:107:1:1",
+    "text": "mm",
+    "norm": "mm",
+    "bbox": [
+      4574,
+      968,
+      49,
+      8
+    ],
+    "conf": 0.32336554999999995,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:109:1:1",
+    "text": "JustSpeak",
+    "norm": "justspeak",
+    "bbox": [
+      6576,
+      909,
+      340,
+      64
+    ],
+    "conf": 0.91056381,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:110:1:1",
+    "text": "4 |",
+    "norm": "4",
+    "bbox": [
+      7189,
+      821,
+      172,
+      150
+    ],
+    "conf": 0.70510395,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:111:1:1",
+    "text": "iveMask",
+    "norm": "ivemask",
+    "bbox": [
+      3327,
+      959,
+      274,
+      61
+    ],
+    "conf": 0.91632812,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:112:1:1",
+    "text": "Chameleon",
+    "norm": "chameleon",
+    "bbox": [
+      4151,
+      961,
+      316,
+      52
+    ],
+    "conf": 0.9593008399999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:113:1:1",
+    "text": "aa",
+    "norm": "aa",
+    "bbox": [
+      4551,
+      1033,
+      45,
+      10
+    ],
+    "conf": 0.20259289,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:114:1:1",
+    "text": "KS",
+    "norm": "ks",
+    "bbox": [
+      4554,
+      978,
+      87,
+      29
+    ],
+    "conf": 0.27897805999999997,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:115:1:1",
+    "text": "ScalableBody !\"-Pulse",
+    "norm": "scalablebody pulse",
+    "bbox": [
+      4931,
+      933,
+      719,
+      93
+    ],
+    "conf": 0.60638408,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:116:1:1",
+    "text": "SynVoice",
+    "norm": "synvoice",
+    "bbox": [
+      8170,
+      956,
+      293,
+      65
+    ],
+    "conf": 0.89323769,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:117:1:1",
+    "text": "i]",
+    "norm": "i",
+    "bbox": [
+      3252,
+      1052,
+      9,
+      19
+    ],
+    "conf": 0.52652191,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:118:1:1",
+    "text": "The Colloidé",
+    "norm": "the colloidé",
+    "bbox": [
+      3466,
+      1049,
+      393,
+      52
+    ],
+    "conf": 0.883532755,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:119:1:1",
+    "text": "(se",
+    "norm": "se",
+    "bbox": [
+      3820,
+      926,
+      138,
+      150
+    ],
+    "conf": 0.2666049,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:120:1:1",
+    "text": "vie",
+    "norm": "vie",
+    "bbox": [
+      3867,
+      1063,
+      139,
+      38
+    ],
+    "conf": 0.33495903,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:121:1:1",
+    "text": "morphosis",
+    "norm": "morphosis",
+    "bbox": [
+      4075,
+      1050,
+      334,
+      63
+    ],
+    "conf": 0.91497261,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:122:1:1",
+    "text": "Telextiles",
+    "norm": "telextiles",
+    "bbox": [
+      7745,
+      1039,
+      295,
+      51
+    ],
+    "conf": 0.92524513,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:123:1:1",
+    "text": "me",
+    "norm": "me",
+    "bbox": [
+      6416,
+      1121,
+      32,
+      54
+    ],
+    "conf": 0.22837839,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:124:1:1",
+    "text": "is",
+    "norm": "is",
+    "bbox": [
+      6949,
+      1128,
+      25,
+      32
+    ],
+    "conf": 0.31404434,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:126:1:1",
+    "text": "AffectPhone",
+    "norm": "affectphone",
+    "bbox": [
+      2086,
+      1176,
+      396,
+      51
+    ],
+    "conf": 0.9186938499999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:128:1:1",
+    "text": "nhanced Utensils",
+    "norm": "nhanced utensils",
+    "bbox": [
+      3798,
+      1136,
+      553,
+      51
+    ],
+    "conf": 0.947504955,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:130:1:1",
+    "text": "| Kise",
+    "norm": "kise",
+    "bbox": [
+      4942,
+      1210,
+      64,
+      22
+    ],
+    "conf": 0.31976845,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:131:1:1",
+    "text": "ElasticVRA",
+    "norm": "elasticvra",
+    "bbox": [
+      5767,
+      1115,
+      306,
+      61
+    ],
+    "conf": 0.55941452,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:132:1:1",
+    "text": "iW",
+    "norm": "iw",
+    "bbox": [
+      7048,
+      1164,
+      27,
+      47
+    ],
+    "conf": 0.25718494,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:134:1:1",
+    "text": "Pinching Tactile",
+    "norm": "pinching tactile",
+    "bbox": [
+      7805,
+      1124,
+      502,
+      64
+    ],
+    "conf": 0.8142778749999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:136:1:1",
+    "text": "BrainyHand",
+    "norm": "brainyhand",
+    "bbox": [
+      2096,
+      1269,
+      378,
+      75
+    ],
+    "conf": 0.92131668,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:137:1:1",
+    "text": "Gets",
+    "norm": "gets",
+    "bbox": [
+      4449,
+      1321,
+      53,
+      31
+    ],
+    "conf": 0.33025398,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:138:1:1",
+    "text": "Gaussians in the City",
+    "norm": "gaussians in the city",
+    "bbox": [
+      7569,
+      1246,
+      679,
+      65
+    ],
+    "conf": 0.9664567,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:139:1:1",
+    "text": "4 ” Pixie dust &&",
+    "norm": "4 pixie dust",
+    "bbox": [
+      3610,
+      1249,
+      687,
+      154
+    ],
+    "conf": 0.737538416,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:140:1:1",
+    "text": "apy)",
+    "norm": "apy",
+    "bbox": [
+      4461,
+      1346,
+      49,
+      24
+    ],
+    "conf": 0.37442543,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:142:1:1",
+    "text": "Me",
+    "norm": "me",
+    "bbox": [
+      4943,
+      1298,
+      111,
+      105
+    ],
+    "conf": 0.49684834,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:145:1:1",
+    "text": "Homo Cyberneticus",
+    "norm": "homo cyberneticus",
+    "bbox": [
+      5602,
+      1352,
+      636,
+      65
+    ],
+    "conf": 0.9235666699999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:147:1:1",
+    "text": "Incremental Gaussian Splatting",
+    "norm": "incremental gaussian splatting",
+    "bbox": [
+      7394,
+      1317,
+      1000,
+      65
+    ],
+    "conf": 0.9230385866666666,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:148:1:1",
+    "text": "Look and Talk",
+    "norm": "look and talk",
+    "bbox": [
+      8066,
+      1395,
+      445,
+      51
+    ],
+    "conf": 0.96445488,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:150:1:1",
+    "text": "NP",
+    "norm": "np",
+    "bbox": [
+      1917,
+      1499,
+      47,
+      44
+    ],
+    "conf": 0.52021984,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:151:1:1",
+    "text": "»ssessedHand",
+    "norm": "ssessedhand",
+    "bbox": [
+      2061,
+      1442,
+      639,
+      81
+    ],
+    "conf": 0.56758759,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:152:1:1",
+    "text": "HoverBall",
+    "norm": "hoverball",
+    "bbox": [
+      3773,
+      1431,
+      309,
+      61
+    ],
+    "conf": 0.9061223599999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:153:1:1",
+    "text": "GazeLLM",
+    "norm": "gazellm",
+    "bbox": [
+      8120,
+      1480,
+      300,
+      52
+    ],
+    "conf": 0.92811867,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:154:1:1",
+    "text": "Traxion \\y",
+    "norm": "traxion y",
+    "bbox": [
+      3387,
+      1494,
+      324,
+      154
+    ],
+    "conf": 0.65168392,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:155:1:1",
+    "text": "Shephe",
+    "norm": "shephe",
+    "bbox": [
+      4066,
+      1513,
+      241,
+      64
+    ],
+    "conf": 0.91305748,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:156:1:1",
+    "text": "d pass",
+    "norm": "d pass",
+    "bbox": [
+      4375,
+      1514,
+      211,
+      63
+    ],
+    "conf": 0.9456240850000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:157:1:1",
+    "text": "oe:",
+    "norm": "oe",
+    "bbox": [
+      3314,
+      1631,
+      131,
+      38
+    ],
+    "conf": 0.26914759,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:158:1:1",
+    "text": "Te",
+    "norm": "te",
+    "bbox": [
+      5508,
+      1503,
+      200,
+      124
+    ],
+    "conf": 0.32731747,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:159:1:1",
+    "text": "SRS",
+    "norm": "srs",
+    "bbox": [
+      3356,
+      1629,
+      192,
+      74
+    ],
+    "conf": 0.39015518,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:160:1:1",
+    "text": "47",
+    "norm": "47",
+    "bbox": [
+      3878,
+      1656,
+      50,
+      32
+    ],
+    "conf": 0.4174012,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:162:1:1",
+    "text": "Bubble",
+    "norm": "bubble",
+    "bbox": [
+      5791,
+      1668,
+      224,
+      51
+    ],
+    "conf": 0.9639658400000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:163:1:1",
+    "text": "\\™",
+    "norm": "tm",
+    "bbox": [
+      6305,
+      1681,
+      114,
+      51
+    ],
+    "conf": 0.40439304,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:166:1:1",
+    "text": "Fairy Lights in Femtoseconds",
+    "norm": "fairy lights in femtoseconds",
+    "bbox": [
+      4241,
+      1633,
+      968,
+      112
+    ],
+    "conf": 0.938041305,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:167:1:1",
+    "text": "i",
+    "norm": "i",
+    "bbox": [
+      7078,
+      1670,
+      91,
+      76
+    ],
+    "conf": 0.715588,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:169:1:1",
+    "text": "soerMask",
+    "norm": "soermask",
+    "bbox": [
+      8196,
+      1685,
+      296,
+      56
+    ],
+    "conf": 0.28374081,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:170:1:1",
+    "text": "Diminished Haptics",
+    "norm": "diminished haptics",
+    "bbox": [
+      3643,
+      1741,
+      620,
+      63
+    ],
+    "conf": 0.92819237,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:171:1:1",
+    "text": "Derma",
+    "norm": "derma",
+    "bbox": [
+      6614,
+      1786,
+      208,
+      51
+    ],
+    "conf": 0.95974854,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:172:1:1",
+    "text": "DualVoice WESP",
+    "norm": "dualvoice wesp",
+    "bbox": [
+      6958,
+      1765,
+      624,
+      83
+    ],
+    "conf": 0.91335037,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:174:1:1",
+    "text": "Smamek",
+    "norm": "smamek",
+    "bbox": [
+      597,
+      1786,
+      493,
+      104
+    ],
+    "conf": 0.66026207,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:175:1:1",
+    "text": "SottoVoce sj",
+    "norm": "sottovoce sj",
+    "bbox": [
+      6126,
+      1816,
+      485,
+      79
+    ],
+    "conf": 0.6259658250000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:176:1:1",
+    "text": "entMas",
+    "norm": "entmas",
+    "bbox": [
+      6618,
+      1844,
+      236,
+      51
+    ],
+    "conf": 0.92748596,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:177:1:1",
+    "text": "SilentWhisper",
+    "norm": "silentwhisper",
+    "bbox": [
+      8064,
+      1843,
+      446,
+      64
+    ],
+    "conf": 0.9069226100000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:179:1:1",
+    "text": "SSR7000",
+    "norm": "ssr7000",
+    "bbox": [
+      6968,
+      1919,
+      290,
+      52
+    ],
+    "conf": 0.90572937,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:180:1:1",
+    "text": "2",
+    "norm": "2",
+    "bbox": [
+      7362,
+      1891,
+      79,
+      87
+    ],
+    "conf": 0.33730331,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:181:1:1",
+    "text": "SmartVoice",
+    "norm": "smartvoice",
+    "bbox": [
+      3745,
+      1957,
+      365,
+      52
+    ],
+    "conf": 0.9616799899999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:182:1:1",
+    "text": "Intentio",
+    "norm": "intentio",
+    "bbox": [
+      5005,
+      1989,
+      237,
+      51
+    ],
+    "conf": 0.5519783,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:183:1:1",
+    "text": "TieLent",
+    "norm": "tielent",
+    "bbox": [
+      6198,
+      1960,
+      238,
+      51
+    ],
+    "conf": 0.91128738,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:184:1:1",
+    "text": "Da",
+    "norm": "da",
+    "bbox": [
+      7407,
+      1956,
+      125,
+      91
+    ],
+    "conf": 0.54004753,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:185:1:1",
+    "text": "The sound of touch",
+    "norm": "the sound of touch",
+    "bbox": [
+      3216,
+      2055,
+      623,
+      51
+    ],
+    "conf": 0.9651997775000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:186:1:1",
+    "text": "TSS",
+    "norm": "tss",
+    "bbox": [
+      5566,
+      1935,
+      158,
+      137
+    ],
+    "conf": 0.45690674000000003,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:187:1:1",
+    "text": "Gaze+L",
+    "norm": "gaze l",
+    "bbox": [
+      6565,
+      2034,
+      244,
+      52
+    ],
+    "conf": 0.9285429399999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:188:1:1",
+    "text": "rner,",
+    "norm": "rner",
+    "bbox": [
+      7570,
+      2026,
+      188,
+      63
+    ],
+    "conf": 0.48663784,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:190:1:1",
+    "text": "Organic interaction technologies",
+    "norm": "organic interaction technologies",
+    "bbox": [
+      1010,
+      2054,
+      1079,
+      76
+    ],
+    "conf": 0.9652367399999998,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:191:1:1",
+    "text": "Z-touch",
+    "norm": "z touch",
+    "bbox": [
+      2213,
+      2069,
+      254,
+      61
+    ],
+    "conf": 0.92840584,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:194:1:1",
+    "text": "Aware",
+    "norm": "aware",
+    "bbox": [
+      7013,
+      2092,
+      199,
+      51
+    ],
+    "conf": 0.96862442,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:197:1:1",
+    "text": "ans",
+    "norm": "ans",
+    "bbox": [
+      3009,
+      2098,
+      129,
+      93
+    ],
+    "conf": 0.66020981,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:198:1:1",
+    "text": "Fy",
+    "norm": "fy",
+    "bbox": [
+      3013,
+      2181,
+      119,
+      50
+    ],
+    "conf": 0.31269808,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:199:1:1",
+    "text": "MoveMe",
+    "norm": "moveme",
+    "bbox": [
+      4191,
+      2145,
+      273,
+      51
+    ],
+    "conf": 0.90923042,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:200:1:1",
+    "text": "i",
+    "norm": "i",
+    "bbox": [
+      5597,
+      2035,
+      84,
+      138
+    ],
+    "conf": 0.6027333500000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:201:1:1",
+    "text": "i",
+    "norm": "i",
+    "bbox": [
+      5843,
+      2141,
+      142,
+      87
+    ],
+    "conf": 0.40144535,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:202:1:1",
+    "text": "= A",
+    "norm": "a",
+    "bbox": [
+      6098,
+      2170,
+      101,
+      58
+    ],
+    "conf": 0.672366375,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:203:1:1",
+    "text": "ae",
+    "norm": "ae",
+    "bbox": [
+      7350,
+      2078,
+      245,
+      103
+    ],
+    "conf": 0.35352055,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:204:1:1",
+    "text": "Watch Your",
+    "norm": "watch your",
+    "bbox": [
+      7613,
+      2132,
+      369,
+      51
+    ],
+    "conf": 0.9630972700000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:206:1:1",
+    "text": "8.",
+    "norm": "8",
+    "bbox": [
+      6809,
+      2048,
+      145,
+      208
+    ],
+    "conf": 0.36082436,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:209:1:1",
+    "text": "Marble Market",
+    "norm": "marble market",
+    "bbox": [
+      957,
+      2366,
+      463,
+      51
+    ],
+    "conf": 0.961594465,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:210:1:1",
+    "text": "Expressive typing",
+    "norm": "expressive typing",
+    "bbox": [
+      1665,
+      2342,
+      563,
+      64
+    ],
+    "conf": 0.96300457,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:212:1:1",
+    "text": "et",
+    "norm": "et",
+    "bbox": [
+      2380,
+      2393,
+      23,
+      16
+    ],
+    "conf": 0.49079243,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:213:1:1",
+    "text": "i,",
+    "norm": "i",
+    "bbox": [
+      2517,
+      2253,
+      170,
+      163
+    ],
+    "conf": 0.29714022,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:215:1:1",
+    "text": "ne",
+    "norm": "ne",
+    "bbox": [
+      7070,
+      2204,
+      812,
+      175
+    ],
+    "conf": 0.38006519,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:216:1:1",
+    "text": "Anywhere touchtyping",
+    "norm": "anywhere touchtyping",
+    "bbox": [
+      1972,
+      2408,
+      720,
+      64
+    ],
+    "conf": 0.923958435,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:217:1:1",
+    "text": "<e -",
+    "norm": "e",
+    "bbox": [
+      4455,
+      2378,
+      176,
+      64
+    ],
+    "conf": 0.7626541950000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:218:1:1",
+    "text": "Augment",
+    "norm": "augment",
+    "bbox": [
+      5265,
+      2384,
+      290,
+      64
+    ],
+    "conf": 0.92562035,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:219:1:1",
+    "text": "gimp",
+    "norm": "gimp",
+    "bbox": [
+      5657,
+      2328,
+      159,
+      119
+    ],
+    "conf": 0.54606766,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:220:1:1",
+    "text": "RRASASE",
+    "norm": "rrasase",
+    "bbox": [
+      990,
+      2495,
+      280,
+      39
+    ],
+    "conf": 0.63408871,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:221:1:1",
+    "text": "Fr4",
+    "norm": "fr4",
+    "bbox": [
+      1404,
+      2504,
+      89,
+      38
+    ],
+    "conf": 0.35184967,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:224:1:1",
+    "text": "Fro:",
+    "norm": "fro",
+    "bbox": [
+      3363,
+      2496,
+      127,
+      38
+    ],
+    "conf": 0.52264816,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:225:1:1",
+    "text": "a en ne",
+    "norm": "a en ne",
+    "bbox": [
+      4121,
+      2500,
+      740,
+      100
+    ],
+    "conf": 0.20793948,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:226:1:1",
+    "text": "FI-Rb",
+    "norm": "fi rb",
+    "bbox": [
+      4993,
+      2506,
+      177,
+      38
+    ],
+    "conf": 0.28083868,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:227:1:1",
+    "text": "47",
+    "norm": "47",
+    "bbox": [
+      5233,
+      2509,
+      62,
+      35
+    ],
+    "conf": 0.76579063,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:228:1:1",
+    "text": "7",
+    "norm": "7",
+    "bbox": [
+      5358,
+      2505,
+      22,
+      38
+    ],
+    "conf": 0.6999573499999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:229:1:1",
+    "text": "AR",
+    "norm": "ar",
+    "bbox": [
+      1185,
+      2558,
+      70,
+      39
+    ],
+    "conf": 0.92620316,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:230:1:1",
+    "text": "[20 tie =)",
+    "norm": "20 tie",
+    "bbox": [
+      1402,
+      2545,
+      271,
+      53
+    ],
+    "conf": 0.5359647866666668,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:232:1:1",
+    "text": "[GANTZ]",
+    "norm": "gantz",
+    "bbox": [
+      2609,
+      2564,
+      186,
+      39
+    ],
+    "conf": 0.58041451,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:235:1:1",
+    "text": "“4%:",
+    "norm": "4",
+    "bbox": [
+      4253,
+      2561,
+      132,
+      38
+    ],
+    "conf": 0.36074150000000005,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:236:1:1",
+    "text": "¥ Ib",
+    "norm": "ib",
+    "bbox": [
+      4415,
+      2565,
+      91,
+      36
+    ],
+    "conf": 0.6410161600000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:238:1:1",
+    "text": "J77)",
+    "norm": "j77",
+    "bbox": [
+      4759,
+      2563,
+      132,
+      40
+    ],
+    "conf": 0.25330311,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:240:1:1",
+    "text": "[TENET",
+    "norm": "tenet",
+    "bbox": [
+      6172,
+      2511,
+      150,
+      35
+    ],
+    "conf": 0.9127797700000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:241:1:1",
+    "text": "FDOUNE/ 71-7",
+    "norm": "fdoune 71 7",
+    "bbox": [
+      6594,
+      2513,
+      324,
+      58
+    ],
+    "conf": 0.693666495,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:244:1:1",
+    "text": "[bF4",
+    "norm": "bf4",
+    "bbox": [
+      5393,
+      2573,
+      129,
+      38
+    ],
+    "conf": 0.43874912,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:245:1:1",
+    "text": "TLAP-1)",
+    "norm": "tlap 1",
+    "bbox": [
+      5592,
+      2572,
+      254,
+      40
+    ],
+    "conf": 0.27400675,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:247:1:1",
+    "text": "AV Amd",
+    "norm": "av amd",
+    "bbox": [
+      7000,
+      2574,
+      218,
+      58
+    ],
+    "conf": 0.53262371,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:248:1:1",
+    "text": "-1.0)",
+    "norm": "1 0",
+    "bbox": [
+      7549,
+      2592,
+      102,
+      35
+    ],
+    "conf": 0.5690298500000001,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:249:1:1",
+    "text": "2007 2008 2009 2010 2011",
+    "norm": "2007 2008 2009 2010 2011",
+    "bbox": [
+      1014,
+      2663,
+      1828,
+      88
+    ],
+    "conf": 0.940990356,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:250:1:1",
+    "text": "2012 2013 2014 2015 2016 2017 2018 2019 2020 2021",
+    "norm": "2012 2013 2014 2015 2016 2017 2018 2019 2020 2021",
+    "bbox": [
+      3005,
+      2578,
+      3820,
+      173
+    ],
+    "conf": 0.86471355,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:251:1:1",
+    "text": "2022. 2023 2024 2025°",
+    "norm": "2022 2023 2024 2025",
+    "bbox": [
+      6988,
+      2622,
+      1535,
+      129
+    ],
+    "conf": 0.7382960024999999,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:252:1:1",
+    "text": "99",
+    "norm": "99",
+    "bbox": [
+      439,
+      2741,
+      122,
+      88
+    ],
+    "conf": 0.96613022,
+    "kind": "line"
+  },
+  {
+    "id": "line-1:253:1:1",
+    "text": "00",
+    "norm": "00",
+    "bbox": [
+      766,
+      2741,
+      122,
+      88
+    ],
+    "conf": 0.96734756,
+    "kind": "line"
+  },
+  {
+    "id": "word-1:1:1:1-1",
+    "text": "Laboratoire",
+    "norm": "laboratoire",
+    "bbox": [
+      240,
+      63,
+      261,
+      41
+    ],
+    "conf": 0.9330315400000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:1:1:1-2",
+    "text": "Révolutionnaire",
+    "norm": "révolutionnaire",
+    "bbox": [
+      519,
+      63,
+      361,
+      41
+    ],
+    "conf": 0.66650764,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:1:1:1-3",
+    "text": "et",
+    "norm": "et",
+    "bbox": [
+      896,
+      64,
+      43,
+      40
+    ],
+    "conf": 0.9300692700000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:1:1:1-4",
+    "text": "Romantique",
+    "norm": "romantique",
+    "bbox": [
+      956,
+      63,
+      275,
+      50
+    ],
+    "conf": 0.9221746799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:2:1:1-1",
+    "text": "Easy-Tagging",
+    "norm": "easy tagging",
+    "bbox": [
+      2035,
+      54,
+      430,
+      64
+    ],
+    "conf": 0.9064598100000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:2:1:1-2",
+    "text": "Cam",
+    "norm": "cam",
+    "bbox": [
+      2491,
+      53,
+      143,
+      52
+    ],
+    "conf": 0.96779381,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:3:1:1-1",
+    "text": "Social",
+    "norm": "social",
+    "bbox": [
+      2847,
+      41,
+      191,
+      52
+    ],
+    "conf": 0.96421539,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:3:1:1-2",
+    "text": "life",
+    "norm": "life",
+    "bbox": [
+      3067,
+      42,
+      88,
+      51
+    ],
+    "conf": 0.96688744,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:3:1:1-3",
+    "text": "logging",
+    "norm": "logging",
+    "bbox": [
+      3181,
+      42,
+      232,
+      64
+    ],
+    "conf": 0.95755058,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:4:1:1-1",
+    "text": "Investigating",
+    "norm": "investigating",
+    "bbox": [
+      4727,
+      32,
+      324,
+      51
+    ],
+    "conf": 0.95692207,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:4:1:1-2",
+    "text": "Bodily",
+    "norm": "bodily",
+    "bbox": [
+      5074,
+      32,
+      159,
+      51
+    ],
+    "conf": 0.95681618,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:4:1:1-3",
+    "text": "Responses",
+    "norm": "responses",
+    "bbox": [
+      5252,
+      32,
+      283,
+      51
+    ],
+    "conf": 0.9663110399999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:5:1:1-1",
+    "text": "oe",
+    "norm": "oe",
+    "bbox": [
+      5793,
+      32,
+      115,
+      70
+    ],
+    "conf": 0.7303677399999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:7:1:1-1",
+    "text": "Conditions",
+    "norm": "conditions",
+    "bbox": [
+      7497,
+      49,
+      276,
+      42
+    ],
+    "conf": 0.96626755,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:7:1:1-2",
+    "text": "for",
+    "norm": "for",
+    "bbox": [
+      7791,
+      50,
+      70,
+      41
+    ],
+    "conf": 0.93287971,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:7:1:1-3",
+    "text": "Inter-brain",
+    "norm": "inter brain",
+    "bbox": [
+      7880,
+      50,
+      260,
+      41
+    ],
+    "conf": 0.9179283100000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:7:1:1-4",
+    "text": "Synchronization",
+    "norm": "synchronization",
+    "bbox": [
+      8161,
+      49,
+      409,
+      52
+    ],
+    "conf": 0.96676514,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:8:1:1-1",
+    "text": "Temporal",
+    "norm": "temporal",
+    "bbox": [
+      3123,
+      125,
+      293,
+      63
+    ],
+    "conf": 0.9610183000000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:8:1:1-2",
+    "text": "Phase",
+    "norm": "phase",
+    "bbox": [
+      3445,
+      125,
+      194,
+      51
+    ],
+    "conf": 0.9648704499999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:8:1:1-3",
+    "text": "Shift",
+    "norm": "shift",
+    "bbox": [
+      3663,
+      124,
+      144,
+      52
+    ],
+    "conf": 0.96924316,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:10:1:1-1",
+    "text": "to",
+    "norm": "to",
+    "bbox": [
+      4875,
+      94,
+      50,
+      39
+    ],
+    "conf": 0.9602168299999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:10:1:1-2",
+    "text": "Unknown",
+    "norm": "unknown",
+    "bbox": [
+      4947,
+      92,
+      236,
+      41
+    ],
+    "conf": 0.96077759,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:10:1:1-3",
+    "text": "Words",
+    "norm": "words",
+    "bbox": [
+      5202,
+      92,
+      165,
+      41
+    ],
+    "conf": 0.96382164,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:13:1:1-1",
+    "text": "Design",
+    "norm": "design",
+    "bbox": [
+      6457,
+      89,
+      215,
+      64
+    ],
+    "conf": 0.95856514,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:13:1:1-2",
+    "text": "in",
+    "norm": "in",
+    "bbox": [
+      6699,
+      102,
+      49,
+      37
+    ],
+    "conf": 0.95090904,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:13:1:1-3",
+    "text": "Action",
+    "norm": "action",
+    "bbox": [
+      6772,
+      89,
+      203,
+      51
+    ],
+    "conf": 0.9632821699999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:14:1:1-1",
+    "text": "ce",
+    "norm": "ce",
+    "bbox": [
+      7212,
+      125,
+      37,
+      44
+    ],
+    "conf": 0.2837849,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:15:1:1-1",
+    "text": "in",
+    "norm": "in",
+    "bbox": [
+      7694,
+      105,
+      39,
+      40
+    ],
+    "conf": 0.9688435400000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:15:1:1-2",
+    "text": "Remote",
+    "norm": "remote",
+    "bbox": [
+      7755,
+      105,
+      198,
+      41
+    ],
+    "conf": 0.9664639300000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:15:1:1-3",
+    "text": "Communication",
+    "norm": "communication",
+    "bbox": [
+      7971,
+      104,
+      404,
+      42
+    ],
+    "conf": 0.96208282,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:15:1:1-4",
+    "text": "bo",
+    "norm": "bo",
+    "bbox": [
+      8375,
+      105,
+      159,
+      142
+    ],
+    "conf": 0.5530445900000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:16:1:1-1",
+    "text": "HappinessCounter",
+    "norm": "happinesscounter",
+    "bbox": [
+      2418,
+      170,
+      604,
+      76
+    ],
+    "conf": 0.92395607,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:17:1:1-1",
+    "text": "suGATALOG",
+    "norm": "sugatalog",
+    "bbox": [
+      3309,
+      189,
+      392,
+      52
+    ],
+    "conf": 0.9187810500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:20:1:1-1",
+    "text": "gures",
+    "norm": "gures",
+    "bbox": [
+      4748,
+      159,
+      176,
+      51
+    ],
+    "conf": 0.91611626,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:20:1:1-2",
+    "text": "in",
+    "norm": "in",
+    "bbox": [
+      4950,
+      159,
+      49,
+      37
+    ],
+    "conf": 0.95042534,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:20:1:1-3",
+    "text": "scholarly",
+    "norm": "scholarly",
+    "bbox": [
+      5024,
+      146,
+      289,
+      64
+    ],
+    "conf": 0.9675413500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:20:1:1-4",
+    "text": "papers",
+    "norm": "papers",
+    "bbox": [
+      5336,
+      159,
+      218,
+      50
+    ],
+    "conf": 0.95744949,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:21:1:1-1",
+    "text": "Ext",
+    "norm": "ext",
+    "bbox": [
+      5715,
+      168,
+      99,
+      50
+    ],
+    "conf": 0.96623558,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:22:1:1-1",
+    "text": "of",
+    "norm": "of",
+    "bbox": [
+      5826,
+      50,
+      147,
+      196
+    ],
+    "conf": 0.23852440000000003,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:23:1:1-1",
+    "text": "Ssion",
+    "norm": "ssion",
+    "bbox": [
+      5958,
+      181,
+      208,
+      55
+    ],
+    "conf": 0.42340668000000004,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:24:1:1-1",
+    "text": "Serendipity",
+    "norm": "serendipity",
+    "bbox": [
+      7680,
+      161,
+      363,
+      65
+    ],
+    "conf": 0.95908081,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:24:1:1-2",
+    "text": "Wall",
+    "norm": "wall",
+    "bbox": [
+      8064,
+      162,
+      130,
+      51
+    ],
+    "conf": 0.96432182,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:25:1:1-1",
+    "text": "LifeTag",
+    "norm": "lifetag",
+    "bbox": [
+      1001,
+      208,
+      231,
+      76
+    ],
+    "conf": 0.88729645,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:27:1:1-2",
+    "text": "Storming",
+    "norm": "storming",
+    "bbox": [
+      5426,
+      224,
+      289,
+      65
+    ],
+    "conf": 0.9570430799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:28:1:1-1",
+    "text": "Oa",
+    "norm": "oa",
+    "bbox": [
+      6099,
+      268,
+      37,
+      44
+    ],
+    "conf": 0.25524721,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:29:1:1-1",
+    "text": "Demonstrating",
+    "norm": "demonstrating",
+    "bbox": [
+      6915,
+      216,
+      374,
+      51
+    ],
+    "conf": 0.9330358099999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:29:1:1-2",
+    "text": "Virtural",
+    "norm": "virtural",
+    "bbox": [
+      7308,
+      216,
+      180,
+      41
+    ],
+    "conf": 0.9131465900000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:29:1:1-3",
+    "text": "Teamwork",
+    "norm": "teamwork",
+    "bbox": [
+      7508,
+      216,
+      263,
+      41
+    ],
+    "conf": 0.95424065,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:30:1:1-1",
+    "text": "HoloArm",
+    "norm": "holoarm",
+    "bbox": [
+      7772,
+      252,
+      274,
+      51
+    ],
+    "conf": 0.90285576,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:31:1:1-1",
+    "text": "Sq",
+    "norm": "sq",
+    "bbox": [
+      3007,
+      280,
+      81,
+      64
+    ],
+    "conf": 0.94331467,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:32:1:1-1",
+    "text": "Mi",
+    "norm": "mi",
+    "bbox": [
+      3760,
+      266,
+      74,
+      60
+    ],
+    "conf": 0.89507668,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:33:1:1-1",
+    "text": "ook",
+    "norm": "ook",
+    "bbox": [
+      3969,
+      266,
+      120,
+      61
+    ],
+    "conf": 0.88941368,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:34:1:1-1",
+    "text": "NquaCAVE",
+    "norm": "nquacave",
+    "bbox": [
+      4520,
+      267,
+      330,
+      64
+    ],
+    "conf": 0.53342247,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:36:1:1-1",
+    "text": "—>ExtVision",
+    "norm": "extvision",
+    "bbox": [
+      5270,
+      298,
+      411,
+      72
+    ],
+    "conf": 0.6254625699999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:36:1:1-2",
+    "text": "Deep",
+    "norm": "deep",
+    "bbox": [
+      5752,
+      298,
+      164,
+      63
+    ],
+    "conf": 0.95018425,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:36:1:1-3",
+    "text": "dive",
+    "norm": "dive",
+    "bbox": [
+      5940,
+      298,
+      131,
+      51
+    ],
+    "conf": 0.96435768,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:38:1:1-1",
+    "text": "Promethe",
+    "norm": "promethe",
+    "bbox": [
+      6937,
+      323,
+      299,
+      51
+    ],
+    "conf": 0.9163542200000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:39:1:1-1",
+    "text": "with",
+    "norm": "with",
+    "bbox": [
+      7138,
+      276,
+      103,
+      40
+    ],
+    "conf": 0.9306637600000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:39:1:1-2",
+    "text": "Synchrobots",
+    "norm": "synchrobots",
+    "bbox": [
+      7262,
+      275,
+      324,
+      52
+    ],
+    "conf": 0.9155897500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:40:1:1-1",
+    "text": "Jaku-in",
+    "norm": "jaku in",
+    "bbox": [
+      7792,
+      312,
+      233,
+      51
+    ],
+    "conf": 0.9174188200000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:42:1:1-2",
+    "text": "ames",
+    "norm": "ames",
+    "bbox": [
+      3548,
+      414,
+      38,
+      28
+    ],
+    "conf": 0.28515812,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:43:1:1-1",
+    "text": "Around",
+    "norm": "around",
+    "bbox": [
+      3750,
+      364,
+      230,
+      51
+    ],
+    "conf": 0.95895782,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:43:1:1-2",
+    "text": "me",
+    "norm": "me",
+    "bbox": [
+      4009,
+      377,
+      93,
+      38
+    ],
+    "conf": 0.96006088,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:45:1:1-1",
+    "text": "ar",
+    "norm": "ar",
+    "bbox": [
+      4636,
+      398,
+      27,
+      4
+    ],
+    "conf": 0.31101078,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:48:1:1-1",
+    "text": "istant",
+    "norm": "istant",
+    "bbox": [
+      2925,
+      400,
+      184,
+      59
+    ],
+    "conf": 0.90704666,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:50:1:1-1",
+    "text": "Quan",
+    "norm": "quan",
+    "bbox": [
+      3683,
+      439,
+      165,
+      56
+    ],
+    "conf": 0.9634059100000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:51:1:1-1",
+    "text": "realli",
+    "norm": "realli",
+    "bbox": [
+      4032,
+      440,
+      126,
+      51
+    ],
+    "conf": 0.8267529299999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:52:1:1-1",
+    "text": "Oculus",
+    "norm": "oculus",
+    "bbox": [
+      4625,
+      428,
+      40,
+      11
+    ],
+    "conf": 0.7936502799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:53:1:1-1",
+    "text": "Jackin",
+    "norm": "jackin",
+    "bbox": [
+      4937,
+      436,
+      219,
+      61
+    ],
+    "conf": 0.9586364,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:53:1:1-2",
+    "text": "Head",
+    "norm": "head",
+    "bbox": [
+      5184,
+      436,
+      160,
+      61
+    ],
+    "conf": 0.9612136800000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:53:1:1-3",
+    "text": "ag",
+    "norm": "ag",
+    "bbox": [
+      5270,
+      335,
+      82,
+      172
+    ],
+    "conf": 0.34650517000000003,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:53:1:1-4",
+    "text": "OMMIGAZE",
+    "norm": "ommigaze",
+    "bbox": [
+      5395,
+      335,
+      287,
+      172
+    ],
+    "conf": 0.25285521,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:54:1:1-1",
+    "text": "InterPoser",
+    "norm": "interposer",
+    "bbox": [
+      5758,
+      379,
+      396,
+      51
+    ],
+    "conf": 0.90573181,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:54:1:1-2",
+    "text": "PoseAsQuery",
+    "norm": "poseasquery",
+    "bbox": [
+      6141,
+      378,
+      409,
+      65
+    ],
+    "conf": 0.89448189,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:55:1:1-1",
+    "text": "Skillsinterpreter",
+    "norm": "skillsinterpreter",
+    "bbox": [
+      7656,
+      374,
+      491,
+      99
+    ],
+    "conf": 0.66318466,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:56:1:1-1",
+    "text": "FastPerson",
+    "norm": "fastperson",
+    "bbox": [
+      7729,
+      444,
+      358,
+      51
+    ],
+    "conf": 0.9214479799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:57:1:1-1",
+    "text": "Ma",
+    "norm": "ma",
+    "bbox": [
+      2867,
+      480,
+      95,
+      51
+    ],
+    "conf": 0.96421837,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:57:1:1-2",
+    "text": "petite",
+    "norm": "petite",
+    "bbox": [
+      2986,
+      480,
+      179,
+      63
+    ],
+    "conf": 0.9316442100000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:57:1:1-3",
+    "text": "chérie",
+    "norm": "chérie",
+    "bbox": [
+      3188,
+      479,
+      194,
+      52
+    ],
+    "conf": 0.84493233,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:58:1:1-1",
+    "text": "uppleView",
+    "norm": "uppleview",
+    "bbox": [
+      5763,
+      443,
+      330,
+      63
+    ],
+    "conf": 0.90118019,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:59:1:1-1",
+    "text": "De",
+    "norm": "de",
+    "bbox": [
+      7203,
+      492,
+      37,
+      18
+    ],
+    "conf": 0.57855988,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:60:1:1-1",
+    "text": "oF",
+    "norm": "of",
+    "bbox": [
+      8140,
+      166,
+      392,
+      519
+    ],
+    "conf": 0.5647668800000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:62:1:1-1",
+    "text": "Jackin",
+    "norm": "jackin",
+    "bbox": [
+      4932,
+      516,
+      207,
+      51
+    ],
+    "conf": 0.51903259,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:62:1:1-2",
+    "text": "Airsoft",
+    "norm": "airsoft",
+    "bbox": [
+      5163,
+      516,
+      210,
+      51
+    ],
+    "conf": 0.76197205,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:65:1:1-1",
+    "text": "Aged",
+    "norm": "aged",
+    "bbox": [
+      7738,
+      513,
+      165,
+      64
+    ],
+    "conf": 0.9643722499999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:65:1:1-2",
+    "text": "Eyes",
+    "norm": "eyes",
+    "bbox": [
+      7932,
+      513,
+      149,
+      64
+    ],
+    "conf": 0.9673683900000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:66:1:1-1",
+    "text": "Peripheral",
+    "norm": "peripheral",
+    "bbox": [
+      2254,
+      547,
+      332,
+      120
+    ],
+    "conf": 0.96945473,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:66:1:1-2",
+    "text": "vision",
+    "norm": "vision",
+    "bbox": [
+      2612,
+      566,
+      192,
+      77
+    ],
+    "conf": 0.9638119500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:66:1:1-3",
+    "text": "annotation",
+    "norm": "annotation",
+    "bbox": [
+      2830,
+      551,
+      351,
+      62
+    ],
+    "conf": 0.95988586,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:67:1:1-2",
+    "text": "DAR",
+    "norm": "dar",
+    "bbox": [
+      4604,
+      548,
+      144,
+      96
+    ],
+    "conf": 0.96842308,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:67:1:1-3",
+    "text": "AN",
+    "norm": "an",
+    "bbox": [
+      4808,
+      594,
+      92,
+      50
+    ],
+    "conf": 0.96898018,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:67:1:1-4",
+    "text": "Jackin",
+    "norm": "jackin",
+    "bbox": [
+      4930,
+      588,
+      218,
+      61
+    ],
+    "conf": 0.85854973,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:67:1:1-5",
+    "text": "Space",
+    "norm": "space",
+    "bbox": [
+      5175,
+      587,
+      200,
+      76
+    ],
+    "conf": 0.9651499200000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:70:1:1-1",
+    "text": "Re",
+    "norm": "re",
+    "bbox": [
+      6846,
+      612,
+      73,
+      50
+    ],
+    "conf": 0.9657553900000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:71:1:1-1",
+    "text": "nHanger",
+    "norm": "nhanger",
+    "bbox": [
+      7116,
+      612,
+      271,
+      64
+    ],
+    "conf": 0.92243698,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:72:1:1-1",
+    "text": "Juicy",
+    "norm": "juicy",
+    "bbox": [
+      7733,
+      594,
+      168,
+      64
+    ],
+    "conf": 0.96773499,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:72:1:1-2",
+    "text": "Text",
+    "norm": "text",
+    "bbox": [
+      7922,
+      594,
+      131,
+      51
+    ],
+    "conf": 0.96974739,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:73:1:1-1",
+    "text": "rele",
+    "norm": "rele",
+    "bbox": [
+      2529,
+      642,
+      164,
+      103
+    ],
+    "conf": 0.61367889,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:74:1:1-1",
+    "text": "NaturalE",
+    "norm": "naturale",
+    "bbox": [
+      2902,
+      677,
+      271,
+      51
+    ],
+    "conf": 0.9102549000000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:75:1:1-1",
+    "text": "Falcoher",
+    "norm": "falcoher",
+    "bbox": [
+      5769,
+      647,
+      276,
+      51
+    ],
+    "conf": 0.90984482,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:76:1:1-1",
+    "text": "wy,",
+    "norm": "wy",
+    "bbox": [
+      6953,
+      598,
+      150,
+      102
+    ],
+    "conf": 0.31706543,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:77:1:1-1",
+    "text": "Kuroko",
+    "norm": "kuroko",
+    "bbox": [
+      7634,
+      670,
+      225,
+      51
+    ],
+    "conf": 0.92661011,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:77:1:1-2",
+    "text": "Paradigm",
+    "norm": "paradigm",
+    "bbox": [
+      7886,
+      670,
+      302,
+      64
+    ],
+    "conf": 0.96264557,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:78:1:1-1",
+    "text": "Aided",
+    "norm": "aided",
+    "bbox": [
+      2142,
+      674,
+      186,
+      61
+    ],
+    "conf": 0.96299004,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:78:1:1-2",
+    "text": "eye",
+    "norm": "eye",
+    "bbox": [
+      2354,
+      688,
+      111,
+      61
+    ],
+    "conf": 0.96974747,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:80:1:1-1",
+    "text": "Parallel",
+    "norm": "parallel",
+    "bbox": [
+      4516,
+      710,
+      242,
+      61
+    ],
+    "conf": 0.95809196,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:80:1:1-2",
+    "text": "Eyes",
+    "norm": "eyes",
+    "bbox": [
+      4786,
+      710,
+      148,
+      75
+    ],
+    "conf": 0.96858284,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:81:1:1-1",
+    "text": "Behind-the-mask",
+    "norm": "behind the mask",
+    "bbox": [
+      5255,
+      702,
+      545,
+      51
+    ],
+    "conf": 0.8993944500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:82:1:1-1",
+    "text": "Retina",
+    "norm": "retina",
+    "bbox": [
+      7087,
+      726,
+      191,
+      51
+    ],
+    "conf": 0.73884468,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:83:1:1-2",
+    "text": "Display",
+    "norm": "display",
+    "bbox": [
+      7602,
+      726,
+      233,
+      94
+    ],
+    "conf": 0.96952164,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:84:1:1-1",
+    "text": "NoseKno",
+    "norm": "nosekno",
+    "bbox": [
+      8001,
+      745,
+      289,
+      51
+    ],
+    "conf": 0.87725876,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:86:1:1-1",
+    "text": "ula",
+    "norm": "ula",
+    "bbox": [
+      933,
+      724,
+      250,
+      127
+    ],
+    "conf": 0.81930992,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:88:1:1-1",
+    "text": "GazeC",
+    "norm": "gazec",
+    "bbox": [
+      2962,
+      760,
+      199,
+      52
+    ],
+    "conf": 0.6610144,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:89:1:1-1",
+    "text": "Ne",
+    "norm": "ne",
+    "bbox": [
+      3270,
+      801,
+      8,
+      20
+    ],
+    "conf": 0.37053333,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:89:1:1-2",
+    "text": "ws",
+    "norm": "ws",
+    "bbox": [
+      3310,
+      810,
+      21,
+      14
+    ],
+    "conf": 0.39675350000000004,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:90:1:1-1",
+    "text": "WithYou",
+    "norm": "withyou",
+    "bbox": [
+      4634,
+      794,
+      262,
+      51
+    ],
+    "conf": 0.91697266,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:91:1:1-1",
+    "text": "ds",
+    "norm": "ds",
+    "bbox": [
+      5121,
+      781,
+      86,
+      83
+    ],
+    "conf": 0.40075855,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:92:1:1-1",
+    "text": "Jackl",
+    "norm": "jackl",
+    "bbox": [
+      5703,
+      765,
+      166,
+      51
+    ],
+    "conf": 0.9040744,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:93:1:1-1",
+    "text": "Hap",
+    "norm": "hap",
+    "bbox": [
+      6121,
+      765,
+      125,
+      63
+    ],
+    "conf": 0.96826607,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:94:1:1-1",
+    "text": "er",
+    "norm": "er",
+    "bbox": [
+      6498,
+      778,
+      62,
+      38
+    ],
+    "conf": 0.96831375,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:95:1:1-1",
+    "text": "ny?",
+    "norm": "ny",
+    "bbox": [
+      7456,
+      789,
+      74,
+      54
+    ],
+    "conf": 0.27838245,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:98:1:1-1",
+    "text": "SubMe",
+    "norm": "subme",
+    "bbox": [
+      5807,
+      833,
+      225,
+      52
+    ],
+    "conf": 0.92784607,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:99:1:1-1",
+    "text": "DDSupport",
+    "norm": "ddsupport",
+    "bbox": [
+      6560,
+      833,
+      353,
+      64
+    ],
+    "conf": 0.91076408,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:102:1:1-1",
+    "text": "Rr",
+    "norm": "rr",
+    "bbox": [
+      7748,
+      887,
+      46,
+      33
+    ],
+    "conf": 0.33427586,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:102:1:1-2",
+    "text": "gy",
+    "norm": "gy",
+    "bbox": [
+      7832,
+      887,
+      45,
+      19
+    ],
+    "conf": 0.39760776999999997,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:103:1:1-1",
+    "text": "Dynamik",
+    "norm": "dynamik",
+    "bbox": [
+      8174,
+      850,
+      274,
+      64
+    ],
+    "conf": 0.92956436,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:104:1:1-1",
+    "text": "Flyingyéyes",
+    "norm": "flyingyéyes",
+    "bbox": [
+      2549,
+      883,
+      356,
+      64
+    ],
+    "conf": 0.81686508,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:105:1:1-1",
+    "text": "LiveSphere",
+    "norm": "livesphere",
+    "bbox": [
+      3751,
+      829,
+      355,
+      121
+    ],
+    "conf": 0.92985535,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:107:1:1-1",
+    "text": "mm",
+    "norm": "mm",
+    "bbox": [
+      4574,
+      968,
+      49,
+      8
+    ],
+    "conf": 0.32336554999999995,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:109:1:1-1",
+    "text": "JustSpeak",
+    "norm": "justspeak",
+    "bbox": [
+      6576,
+      909,
+      340,
+      64
+    ],
+    "conf": 0.91056381,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:111:1:1-1",
+    "text": "iveMask",
+    "norm": "ivemask",
+    "bbox": [
+      3327,
+      959,
+      274,
+      61
+    ],
+    "conf": 0.91632812,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:112:1:1-1",
+    "text": "Chameleon",
+    "norm": "chameleon",
+    "bbox": [
+      4151,
+      961,
+      316,
+      52
+    ],
+    "conf": 0.9593008399999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:113:1:1-1",
+    "text": "aa",
+    "norm": "aa",
+    "bbox": [
+      4551,
+      1033,
+      45,
+      10
+    ],
+    "conf": 0.20259289,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:114:1:1-1",
+    "text": "KS",
+    "norm": "ks",
+    "bbox": [
+      4554,
+      978,
+      87,
+      29
+    ],
+    "conf": 0.27897805999999997,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:115:1:1-1",
+    "text": "ScalableBody",
+    "norm": "scalablebody",
+    "bbox": [
+      4931,
+      961,
+      445,
+      65
+    ],
+    "conf": 0.92353409,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:115:1:1-2",
+    "text": "!\"-Pulse",
+    "norm": "pulse",
+    "bbox": [
+      5395,
+      933,
+      255,
+      63
+    ],
+    "conf": 0.28923407,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:116:1:1-1",
+    "text": "SynVoice",
+    "norm": "synvoice",
+    "bbox": [
+      8170,
+      956,
+      293,
+      65
+    ],
+    "conf": 0.89323769,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:118:1:1-1",
+    "text": "The",
+    "norm": "the",
+    "bbox": [
+      3466,
+      1050,
+      118,
+      51
+    ],
+    "conf": 0.9330468000000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:118:1:1-2",
+    "text": "Colloidé",
+    "norm": "colloidé",
+    "bbox": [
+      3608,
+      1049,
+      251,
+      52
+    ],
+    "conf": 0.83401871,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:119:1:1-1",
+    "text": "(se",
+    "norm": "se",
+    "bbox": [
+      3820,
+      926,
+      138,
+      150
+    ],
+    "conf": 0.2666049,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:120:1:1-1",
+    "text": "vie",
+    "norm": "vie",
+    "bbox": [
+      3867,
+      1063,
+      139,
+      38
+    ],
+    "conf": 0.33495903,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:121:1:1-1",
+    "text": "morphosis",
+    "norm": "morphosis",
+    "bbox": [
+      4075,
+      1050,
+      334,
+      63
+    ],
+    "conf": 0.91497261,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:122:1:1-1",
+    "text": "Telextiles",
+    "norm": "telextiles",
+    "bbox": [
+      7745,
+      1039,
+      295,
+      51
+    ],
+    "conf": 0.92524513,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:123:1:1-1",
+    "text": "me",
+    "norm": "me",
+    "bbox": [
+      6416,
+      1121,
+      32,
+      54
+    ],
+    "conf": 0.22837839,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:124:1:1-1",
+    "text": "is",
+    "norm": "is",
+    "bbox": [
+      6949,
+      1128,
+      25,
+      32
+    ],
+    "conf": 0.31404434,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:126:1:1-1",
+    "text": "AffectPhone",
+    "norm": "affectphone",
+    "bbox": [
+      2086,
+      1176,
+      396,
+      51
+    ],
+    "conf": 0.9186938499999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:128:1:1-1",
+    "text": "nhanced",
+    "norm": "nhanced",
+    "bbox": [
+      3798,
+      1136,
+      272,
+      51
+    ],
+    "conf": 0.92840736,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:128:1:1-2",
+    "text": "Utensils",
+    "norm": "utensils",
+    "bbox": [
+      4099,
+      1136,
+      252,
+      51
+    ],
+    "conf": 0.9666025500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:130:1:1-2",
+    "text": "Kise",
+    "norm": "kise",
+    "bbox": [
+      4979,
+      1212,
+      27,
+      20
+    ],
+    "conf": 0.20347252000000002,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:131:1:1-1",
+    "text": "ElasticVRA",
+    "norm": "elasticvra",
+    "bbox": [
+      5767,
+      1115,
+      306,
+      61
+    ],
+    "conf": 0.55941452,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:132:1:1-1",
+    "text": "iW",
+    "norm": "iw",
+    "bbox": [
+      7048,
+      1164,
+      27,
+      47
+    ],
+    "conf": 0.25718494,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:134:1:1-1",
+    "text": "Pinching",
+    "norm": "pinching",
+    "bbox": [
+      7805,
+      1124,
+      273,
+      64
+    ],
+    "conf": 0.92500923,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:134:1:1-2",
+    "text": "Tactile",
+    "norm": "tactile",
+    "bbox": [
+      8102,
+      1124,
+      205,
+      51
+    ],
+    "conf": 0.7035465200000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:136:1:1-1",
+    "text": "BrainyHand",
+    "norm": "brainyhand",
+    "bbox": [
+      2096,
+      1269,
+      378,
+      75
+    ],
+    "conf": 0.92131668,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:137:1:1-1",
+    "text": "Gets",
+    "norm": "gets",
+    "bbox": [
+      4449,
+      1321,
+      53,
+      31
+    ],
+    "conf": 0.33025398,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:138:1:1-1",
+    "text": "Gaussians",
+    "norm": "gaussians",
+    "bbox": [
+      7569,
+      1246,
+      332,
+      52
+    ],
+    "conf": 0.9621968099999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:138:1:1-2",
+    "text": "in",
+    "norm": "in",
+    "bbox": [
+      7927,
+      1260,
+      48,
+      37
+    ],
+    "conf": 0.96499268,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:138:1:1-3",
+    "text": "the",
+    "norm": "the",
+    "bbox": [
+      8000,
+      1247,
+      100,
+      51
+    ],
+    "conf": 0.96870407,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:138:1:1-4",
+    "text": "City",
+    "norm": "city",
+    "bbox": [
+      8124,
+      1246,
+      124,
+      65
+    ],
+    "conf": 0.96993324,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:139:1:1-3",
+    "text": "Pixie",
+    "norm": "pixie",
+    "bbox": [
+      3695,
+      1249,
+      228,
+      137
+    ],
+    "conf": 0.96758141,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:139:1:1-4",
+    "text": "dust",
+    "norm": "dust",
+    "bbox": [
+      3955,
+      1305,
+      201,
+      81
+    ],
+    "conf": 0.9286928600000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:140:1:1-1",
+    "text": "apy)",
+    "norm": "apy",
+    "bbox": [
+      4461,
+      1346,
+      49,
+      24
+    ],
+    "conf": 0.37442543,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:142:1:1-1",
+    "text": "Me",
+    "norm": "me",
+    "bbox": [
+      4943,
+      1298,
+      111,
+      105
+    ],
+    "conf": 0.49684834,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:145:1:1-1",
+    "text": "Homo",
+    "norm": "homo",
+    "bbox": [
+      5602,
+      1353,
+      187,
+      51
+    ],
+    "conf": 0.9309281199999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:145:1:1-2",
+    "text": "Cyberneticus",
+    "norm": "cyberneticus",
+    "bbox": [
+      5814,
+      1352,
+      424,
+      65
+    ],
+    "conf": 0.9162052199999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:147:1:1-1",
+    "text": "Incremental",
+    "norm": "incremental",
+    "bbox": [
+      7394,
+      1318,
+      370,
+      51
+    ],
+    "conf": 0.94691452,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:147:1:1-2",
+    "text": "Gaussian",
+    "norm": "gaussian",
+    "bbox": [
+      7791,
+      1317,
+      294,
+      52
+    ],
+    "conf": 0.91110062,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:147:1:1-3",
+    "text": "Splatting",
+    "norm": "splatting",
+    "bbox": [
+      8110,
+      1317,
+      284,
+      65
+    ],
+    "conf": 0.91110062,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:148:1:1-1",
+    "text": "Look",
+    "norm": "look",
+    "bbox": [
+      8066,
+      1395,
+      156,
+      51
+    ],
+    "conf": 0.96637123,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:148:1:1-2",
+    "text": "and",
+    "norm": "and",
+    "bbox": [
+      8243,
+      1395,
+      115,
+      51
+    ],
+    "conf": 0.9630165900000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:148:1:1-3",
+    "text": "Talk",
+    "norm": "talk",
+    "bbox": [
+      8384,
+      1395,
+      127,
+      51
+    ],
+    "conf": 0.9639768200000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:150:1:1-1",
+    "text": "NP",
+    "norm": "np",
+    "bbox": [
+      1917,
+      1499,
+      47,
+      44
+    ],
+    "conf": 0.52021984,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:151:1:1-1",
+    "text": "»ssessedHand",
+    "norm": "ssessedhand",
+    "bbox": [
+      2061,
+      1442,
+      639,
+      81
+    ],
+    "conf": 0.56758759,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:152:1:1-1",
+    "text": "HoverBall",
+    "norm": "hoverball",
+    "bbox": [
+      3773,
+      1431,
+      309,
+      61
+    ],
+    "conf": 0.9061223599999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:153:1:1-1",
+    "text": "GazeLLM",
+    "norm": "gazellm",
+    "bbox": [
+      8120,
+      1480,
+      300,
+      52
+    ],
+    "conf": 0.92811867,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:154:1:1-1",
+    "text": "Traxion",
+    "norm": "traxion",
+    "bbox": [
+      3387,
+      1545,
+      237,
+      103
+    ],
+    "conf": 0.9274916799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:155:1:1-1",
+    "text": "Shephe",
+    "norm": "shephe",
+    "bbox": [
+      4066,
+      1513,
+      241,
+      64
+    ],
+    "conf": 0.91305748,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:156:1:1-2",
+    "text": "pass",
+    "norm": "pass",
+    "bbox": [
+      4439,
+      1527,
+      147,
+      50
+    ],
+    "conf": 0.96119217,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:157:1:1-1",
+    "text": "oe:",
+    "norm": "oe",
+    "bbox": [
+      3314,
+      1631,
+      131,
+      38
+    ],
+    "conf": 0.26914759,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:158:1:1-1",
+    "text": "Te",
+    "norm": "te",
+    "bbox": [
+      5508,
+      1503,
+      200,
+      124
+    ],
+    "conf": 0.32731747,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:159:1:1-1",
+    "text": "SRS",
+    "norm": "srs",
+    "bbox": [
+      3356,
+      1629,
+      192,
+      74
+    ],
+    "conf": 0.39015518,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:160:1:1-1",
+    "text": "47",
+    "norm": "47",
+    "bbox": [
+      3878,
+      1656,
+      50,
+      32
+    ],
+    "conf": 0.4174012,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:162:1:1-1",
+    "text": "Bubble",
+    "norm": "bubble",
+    "bbox": [
+      5791,
+      1668,
+      224,
+      51
+    ],
+    "conf": 0.9639658400000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:163:1:1-1",
+    "text": "\\™",
+    "norm": "tm",
+    "bbox": [
+      6305,
+      1681,
+      114,
+      51
+    ],
+    "conf": 0.40439304,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:166:1:1-1",
+    "text": "Fairy",
+    "norm": "fairy",
+    "bbox": [
+      4241,
+      1633,
+      158,
+      112
+    ],
+    "conf": 0.9342244700000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:166:1:1-2",
+    "text": "Lights",
+    "norm": "lights",
+    "bbox": [
+      4426,
+      1669,
+      237,
+      76
+    ],
+    "conf": 0.96950439,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:166:1:1-3",
+    "text": "in",
+    "norm": "in",
+    "bbox": [
+      4655,
+      1684,
+      50,
+      46
+    ],
+    "conf": 0.9231540699999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:166:1:1-4",
+    "text": "Femtoseconds",
+    "norm": "femtoseconds",
+    "bbox": [
+      4733,
+      1670,
+      476,
+      61
+    ],
+    "conf": 0.92528229,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:169:1:1-1",
+    "text": "soerMask",
+    "norm": "soermask",
+    "bbox": [
+      8196,
+      1685,
+      296,
+      56
+    ],
+    "conf": 0.28374081,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:170:1:1-1",
+    "text": "Diminished",
+    "norm": "diminished",
+    "bbox": [
+      3643,
+      1741,
+      350,
+      51
+    ],
+    "conf": 0.93044205,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:170:1:1-2",
+    "text": "Haptics",
+    "norm": "haptics",
+    "bbox": [
+      4022,
+      1741,
+      241,
+      63
+    ],
+    "conf": 0.92594269,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:171:1:1-1",
+    "text": "Derma",
+    "norm": "derma",
+    "bbox": [
+      6614,
+      1786,
+      208,
+      51
+    ],
+    "conf": 0.95974854,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:172:1:1-1",
+    "text": "DualVoice",
+    "norm": "dualvoice",
+    "bbox": [
+      6958,
+      1786,
+      314,
+      51
+    ],
+    "conf": 0.9117401099999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:172:1:1-2",
+    "text": "WESP",
+    "norm": "wesp",
+    "bbox": [
+      7320,
+      1765,
+      262,
+      83
+    ],
+    "conf": 0.91496063,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:174:1:1-1",
+    "text": "Smamek",
+    "norm": "smamek",
+    "bbox": [
+      597,
+      1786,
+      493,
+      104
+    ],
+    "conf": 0.66026207,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:175:1:1-1",
+    "text": "SottoVoce",
+    "norm": "sottovoce",
+    "bbox": [
+      6126,
+      1816,
+      344,
+      62
+    ],
+    "conf": 0.90615204,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:175:1:1-2",
+    "text": "sj",
+    "norm": "sj",
+    "bbox": [
+      6539,
+      1843,
+      72,
+      52
+    ],
+    "conf": 0.34577961,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:176:1:1-1",
+    "text": "entMas",
+    "norm": "entmas",
+    "bbox": [
+      6618,
+      1844,
+      236,
+      51
+    ],
+    "conf": 0.92748596,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:177:1:1-1",
+    "text": "SilentWhisper",
+    "norm": "silentwhisper",
+    "bbox": [
+      8064,
+      1843,
+      446,
+      64
+    ],
+    "conf": 0.9069226100000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:179:1:1-1",
+    "text": "SSR7000",
+    "norm": "ssr7000",
+    "bbox": [
+      6968,
+      1919,
+      290,
+      52
+    ],
+    "conf": 0.90572937,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:181:1:1-1",
+    "text": "SmartVoice",
+    "norm": "smartvoice",
+    "bbox": [
+      3745,
+      1957,
+      365,
+      52
+    ],
+    "conf": 0.9616799899999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:182:1:1-1",
+    "text": "Intentio",
+    "norm": "intentio",
+    "bbox": [
+      5005,
+      1989,
+      237,
+      51
+    ],
+    "conf": 0.5519783,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:183:1:1-1",
+    "text": "TieLent",
+    "norm": "tielent",
+    "bbox": [
+      6198,
+      1960,
+      238,
+      51
+    ],
+    "conf": 0.91128738,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:184:1:1-1",
+    "text": "Da",
+    "norm": "da",
+    "bbox": [
+      7407,
+      1956,
+      125,
+      91
+    ],
+    "conf": 0.54004753,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:185:1:1-1",
+    "text": "The",
+    "norm": "the",
+    "bbox": [
+      3216,
+      2055,
+      118,
+      51
+    ],
+    "conf": 0.96260735,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:185:1:1-2",
+    "text": "sound",
+    "norm": "sound",
+    "bbox": [
+      3357,
+      2055,
+      194,
+      51
+    ],
+    "conf": 0.9651313,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:185:1:1-3",
+    "text": "of",
+    "norm": "of",
+    "bbox": [
+      3579,
+      2055,
+      60,
+      51
+    ],
+    "conf": 0.96653023,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:185:1:1-4",
+    "text": "touch",
+    "norm": "touch",
+    "bbox": [
+      3660,
+      2055,
+      179,
+      51
+    ],
+    "conf": 0.96653023,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:186:1:1-1",
+    "text": "TSS",
+    "norm": "tss",
+    "bbox": [
+      5566,
+      1935,
+      158,
+      137
+    ],
+    "conf": 0.45690674000000003,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:187:1:1-1",
+    "text": "Gaze+L",
+    "norm": "gaze l",
+    "bbox": [
+      6565,
+      2034,
+      244,
+      52
+    ],
+    "conf": 0.9285429399999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:188:1:1-1",
+    "text": "rner,",
+    "norm": "rner",
+    "bbox": [
+      7570,
+      2026,
+      188,
+      63
+    ],
+    "conf": 0.48663784,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:190:1:1-1",
+    "text": "Organic",
+    "norm": "organic",
+    "bbox": [
+      1010,
+      2054,
+      253,
+      76
+    ],
+    "conf": 0.96852737,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:190:1:1-2",
+    "text": "interaction",
+    "norm": "interaction",
+    "bbox": [
+      1289,
+      2057,
+      353,
+      59
+    ],
+    "conf": 0.96193375,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:190:1:1-3",
+    "text": "technologies",
+    "norm": "technologies",
+    "bbox": [
+      1667,
+      2055,
+      422,
+      75
+    ],
+    "conf": 0.9652491000000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:191:1:1-1",
+    "text": "Z-touch",
+    "norm": "z touch",
+    "bbox": [
+      2213,
+      2069,
+      254,
+      61
+    ],
+    "conf": 0.92840584,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:194:1:1-1",
+    "text": "Aware",
+    "norm": "aware",
+    "bbox": [
+      7013,
+      2092,
+      199,
+      51
+    ],
+    "conf": 0.96862442,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:197:1:1-1",
+    "text": "ans",
+    "norm": "ans",
+    "bbox": [
+      3009,
+      2098,
+      129,
+      93
+    ],
+    "conf": 0.66020981,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:198:1:1-1",
+    "text": "Fy",
+    "norm": "fy",
+    "bbox": [
+      3013,
+      2181,
+      119,
+      50
+    ],
+    "conf": 0.31269808,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:199:1:1-1",
+    "text": "MoveMe",
+    "norm": "moveme",
+    "bbox": [
+      4191,
+      2145,
+      273,
+      51
+    ],
+    "conf": 0.90923042,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:203:1:1-1",
+    "text": "ae",
+    "norm": "ae",
+    "bbox": [
+      7350,
+      2078,
+      245,
+      103
+    ],
+    "conf": 0.35352055,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:204:1:1-1",
+    "text": "Watch",
+    "norm": "watch",
+    "bbox": [
+      7613,
+      2132,
+      199,
+      51
+    ],
+    "conf": 0.96197365,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:204:1:1-2",
+    "text": "Your",
+    "norm": "your",
+    "bbox": [
+      7836,
+      2132,
+      146,
+      51
+    ],
+    "conf": 0.96422089,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:209:1:1-1",
+    "text": "Marble",
+    "norm": "marble",
+    "bbox": [
+      957,
+      2366,
+      217,
+      51
+    ],
+    "conf": 0.96158966,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:209:1:1-2",
+    "text": "Market",
+    "norm": "market",
+    "bbox": [
+      1201,
+      2366,
+      219,
+      51
+    ],
+    "conf": 0.96159927,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:210:1:1-1",
+    "text": "Expressive",
+    "norm": "expressive",
+    "bbox": [
+      1665,
+      2342,
+      344,
+      63
+    ],
+    "conf": 0.96287247,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:210:1:1-2",
+    "text": "typing",
+    "norm": "typing",
+    "bbox": [
+      2032,
+      2342,
+      196,
+      64
+    ],
+    "conf": 0.9631366699999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:212:1:1-1",
+    "text": "et",
+    "norm": "et",
+    "bbox": [
+      2380,
+      2393,
+      23,
+      16
+    ],
+    "conf": 0.49079243,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:215:1:1-1",
+    "text": "ne",
+    "norm": "ne",
+    "bbox": [
+      7070,
+      2204,
+      812,
+      175
+    ],
+    "conf": 0.38006519,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:216:1:1-1",
+    "text": "Anywhere",
+    "norm": "anywhere",
+    "bbox": [
+      1972,
+      2408,
+      317,
+      64
+    ],
+    "conf": 0.9273004899999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:216:1:1-2",
+    "text": "touchtyping",
+    "norm": "touchtyping",
+    "bbox": [
+      2312,
+      2408,
+      380,
+      64
+    ],
+    "conf": 0.92061638,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:218:1:1-1",
+    "text": "Augment",
+    "norm": "augment",
+    "bbox": [
+      5265,
+      2384,
+      290,
+      64
+    ],
+    "conf": 0.92562035,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:219:1:1-1",
+    "text": "gimp",
+    "norm": "gimp",
+    "bbox": [
+      5657,
+      2328,
+      159,
+      119
+    ],
+    "conf": 0.54606766,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:220:1:1-1",
+    "text": "RRASASE",
+    "norm": "rrasase",
+    "bbox": [
+      990,
+      2495,
+      280,
+      39
+    ],
+    "conf": 0.63408871,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:221:1:1-1",
+    "text": "Fr4",
+    "norm": "fr4",
+    "bbox": [
+      1404,
+      2504,
+      89,
+      38
+    ],
+    "conf": 0.35184967,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:224:1:1-1",
+    "text": "Fro:",
+    "norm": "fro",
+    "bbox": [
+      3363,
+      2496,
+      127,
+      38
+    ],
+    "conf": 0.52264816,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:225:1:1-4",
+    "text": "en",
+    "norm": "en",
+    "bbox": [
+      4477,
+      2500,
+      188,
+      39
+    ],
+    "conf": 0.22123474,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:225:1:1-5",
+    "text": "ne",
+    "norm": "ne",
+    "bbox": [
+      4711,
+      2501,
+      150,
+      39
+    ],
+    "conf": 0.20232197,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:226:1:1-1",
+    "text": "FI-Rb",
+    "norm": "fi rb",
+    "bbox": [
+      4993,
+      2506,
+      177,
+      38
+    ],
+    "conf": 0.28083868,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:227:1:1-1",
+    "text": "47",
+    "norm": "47",
+    "bbox": [
+      5233,
+      2509,
+      62,
+      35
+    ],
+    "conf": 0.76579063,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:229:1:1-2",
+    "text": "AR",
+    "norm": "ar",
+    "bbox": [
+      1185,
+      2558,
+      70,
+      39
+    ],
+    "conf": 0.92620316,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:230:1:1-1",
+    "text": "[20",
+    "norm": "20",
+    "bbox": [
+      1402,
+      2549,
+      68,
+      36
+    ],
+    "conf": 0.84925514,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:230:1:1-2",
+    "text": "tie",
+    "norm": "tie",
+    "bbox": [
+      1499,
+      2545,
+      64,
+      53
+    ],
+    "conf": 0.46981014000000004,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:232:1:1-1",
+    "text": "[GANTZ]",
+    "norm": "gantz",
+    "bbox": [
+      2609,
+      2564,
+      186,
+      39
+    ],
+    "conf": 0.58041451,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:236:1:1-2",
+    "text": "Ib",
+    "norm": "ib",
+    "bbox": [
+      4455,
+      2565,
+      51,
+      36
+    ],
+    "conf": 0.53682007,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:238:1:1-1",
+    "text": "J77)",
+    "norm": "j77",
+    "bbox": [
+      4759,
+      2563,
+      132,
+      40
+    ],
+    "conf": 0.25330311,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:240:1:1-1",
+    "text": "[TENET",
+    "norm": "tenet",
+    "bbox": [
+      6172,
+      2511,
+      150,
+      35
+    ],
+    "conf": 0.9127797700000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:241:1:1-1",
+    "text": "FDOUNE/",
+    "norm": "fdoune",
+    "bbox": [
+      6594,
+      2513,
+      152,
+      58
+    ],
+    "conf": 0.5745351399999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:241:1:1-2",
+    "text": "71-7",
+    "norm": "71 7",
+    "bbox": [
+      6788,
+      2520,
+      130,
+      35
+    ],
+    "conf": 0.81279785,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:244:1:1-1",
+    "text": "[bF4",
+    "norm": "bf4",
+    "bbox": [
+      5393,
+      2573,
+      129,
+      38
+    ],
+    "conf": 0.43874912,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:245:1:1-1",
+    "text": "TLAP-1)",
+    "norm": "tlap 1",
+    "bbox": [
+      5592,
+      2572,
+      254,
+      40
+    ],
+    "conf": 0.27400675,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:247:1:1-2",
+    "text": "AV",
+    "norm": "av",
+    "bbox": [
+      7000,
+      2574,
+      68,
+      58
+    ],
+    "conf": 0.67817627,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:247:1:1-3",
+    "text": "Amd",
+    "norm": "amd",
+    "bbox": [
+      7082,
+      2578,
+      136,
+      39
+    ],
+    "conf": 0.38707115000000003,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:248:1:1-2",
+    "text": "-1.0)",
+    "norm": "1 0",
+    "bbox": [
+      7549,
+      2592,
+      102,
+      35
+    ],
+    "conf": 0.5690298500000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:249:1:1-1",
+    "text": "2007",
+    "norm": "2007",
+    "bbox": [
+      1014,
+      2663,
+      249,
+      88
+    ],
+    "conf": 0.9270886199999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:249:1:1-2",
+    "text": "2008",
+    "norm": "2008",
+    "bbox": [
+      1412,
+      2663,
+      251,
+      88
+    ],
+    "conf": 0.9270886199999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:249:1:1-3",
+    "text": "2009",
+    "norm": "2009",
+    "bbox": [
+      1810,
+      2663,
+      252,
+      88
+    ],
+    "conf": 0.9634474199999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:249:1:1-4",
+    "text": "2010",
+    "norm": "2010",
+    "bbox": [
+      2208,
+      2663,
+      252,
+      88
+    ],
+    "conf": 0.94366356,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:249:1:1-5",
+    "text": "2011",
+    "norm": "2011",
+    "bbox": [
+      2607,
+      2663,
+      235,
+      88
+    ],
+    "conf": 0.94366356,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-1",
+    "text": "2012",
+    "norm": "2012",
+    "bbox": [
+      3005,
+      2663,
+      250,
+      88
+    ],
+    "conf": 0.9528466,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-2",
+    "text": "2013",
+    "norm": "2013",
+    "bbox": [
+      3403,
+      2663,
+      250,
+      88
+    ],
+    "conf": 0.93792038,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-3",
+    "text": "2014",
+    "norm": "2014",
+    "bbox": [
+      3802,
+      2578,
+      289,
+      173
+    ],
+    "conf": 0.96137466,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-4",
+    "text": "2015",
+    "norm": "2015",
+    "bbox": [
+      4120,
+      2595,
+      329,
+      156
+    ],
+    "conf": 0.28589687,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-5",
+    "text": "2016",
+    "norm": "2016",
+    "bbox": [
+      4598,
+      2663,
+      252,
+      88
+    ],
+    "conf": 0.86216759,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-6",
+    "text": "2017",
+    "norm": "2017",
+    "bbox": [
+      4997,
+      2663,
+      249,
+      88
+    ],
+    "conf": 0.86216759,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-7",
+    "text": "2018",
+    "norm": "2018",
+    "bbox": [
+      5395,
+      2663,
+      251,
+      88
+    ],
+    "conf": 0.9402318599999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-8",
+    "text": "2019",
+    "norm": "2019",
+    "bbox": [
+      5793,
+      2663,
+      252,
+      88
+    ],
+    "conf": 0.95440506,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-9",
+    "text": "2020",
+    "norm": "2020",
+    "bbox": [
+      6192,
+      2663,
+      251,
+      88
+    ],
+    "conf": 0.9524194300000001,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:250:1:1-10",
+    "text": "2021",
+    "norm": "2021",
+    "bbox": [
+      6590,
+      2663,
+      235,
+      88
+    ],
+    "conf": 0.93770546,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:251:1:1-1",
+    "text": "2022.",
+    "norm": "2022",
+    "bbox": [
+      6988,
+      2663,
+      250,
+      88
+    ],
+    "conf": 0.58725311,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:251:1:1-2",
+    "text": "2023",
+    "norm": "2023",
+    "bbox": [
+      7386,
+      2663,
+      250,
+      88
+    ],
+    "conf": 0.8713620799999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:251:1:1-3",
+    "text": "2024",
+    "norm": "2024",
+    "bbox": [
+      7785,
+      2663,
+      251,
+      88
+    ],
+    "conf": 0.9171682699999999,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:251:1:1-4",
+    "text": "2025°",
+    "norm": "2025",
+    "bbox": [
+      8183,
+      2622,
+      340,
+      129
+    ],
+    "conf": 0.57740055,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:252:1:1-1",
+    "text": "99",
+    "norm": "99",
+    "bbox": [
+      439,
+      2741,
+      122,
+      88
+    ],
+    "conf": 0.96613022,
+    "kind": "word"
+  },
+  {
+    "id": "word-1:253:1:1-1",
+    "text": "00",
+    "norm": "00",
+    "bbox": [
+      766,
+      2741,
+      122,
+      88
+    ],
+    "conf": 0.96734756,
+    "kind": "word"
+  }
+]
