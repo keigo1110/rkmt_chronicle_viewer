@@ -8,6 +8,8 @@ import { execFileSync } from "node:child_process";
 const DEFAULT_INPUT = "images/source.png";
 const DEFAULT_OUTPUT = "public/ocr/entries.json";
 const DEFAULT_OVERRIDES = "data/ocr-overrides.json";
+const DEFAULT_LINES_OUTPUT = "public/ocr/lines.json";
+const DEFAULT_WORDS_OUTPUT = "public/ocr/words.json";
 
 function normalizeText(input) {
   return input
@@ -89,6 +91,7 @@ function groupLines(wordRows) {
           id: `word-${key}-${word.wordNum}`,
           text: word.text,
           norm: wordNorm,
+          context: text,
           bbox: [word.left, word.top, word.width, word.height],
           conf: Math.min(1, Math.max(0, word.conf / 100)),
           kind: "word"
@@ -100,6 +103,7 @@ function groupLines(wordRows) {
       id: `line-${key}`,
       text,
       norm,
+      context: text,
       bbox: [minX, minY, maxX - minX, maxY - minY],
       conf: Math.min(1, Math.max(0, confSum / words.length / 100)),
       kind: "line"
@@ -124,6 +128,7 @@ function loadOverrides(overridesPath) {
       id: item.id ?? `override-${index}`,
       text: item.text,
       norm: item.norm ?? normalizeText(item.text),
+      context: typeof item.context === "string" ? item.context : item.text,
       bbox: item.bbox,
       conf: typeof item.conf === "number" ? item.conf : 1,
       kind: item.kind === "word" ? "word" : "line"
@@ -134,6 +139,8 @@ function main() {
   const inputPath = resolve(process.argv[2] ?? DEFAULT_INPUT);
   const outputPath = resolve(process.argv[3] ?? DEFAULT_OUTPUT);
   const overridesPath = resolve(process.argv[4] ?? DEFAULT_OVERRIDES);
+  const linesOutputPath = resolve(process.argv[5] ?? DEFAULT_LINES_OUTPUT);
+  const wordsOutputPath = resolve(process.argv[6] ?? DEFAULT_WORDS_OUTPUT);
 
   const tempRoot = resolve(tmpdir(), `ocr-${Date.now()}`);
   const tempOutputBase = resolve(tempRoot, "scan");
@@ -150,13 +157,20 @@ function main() {
   const generatedEntries = groupLines(rows);
   const overrideEntries = loadOverrides(overridesPath);
   const outputEntries = [...overrideEntries, ...generatedEntries];
+  const lineEntries = outputEntries.filter((entry) => entry.kind === "line");
+  const wordEntries = outputEntries.filter((entry) => entry.kind === "word");
 
   mkdirSync(dirname(outputPath), { recursive: true });
+  mkdirSync(dirname(linesOutputPath), { recursive: true });
+  mkdirSync(dirname(wordsOutputPath), { recursive: true });
   writeFileSync(outputPath, JSON.stringify(outputEntries, null, 2), "utf8");
+  writeFileSync(linesOutputPath, JSON.stringify(lineEntries, null, 2), "utf8");
+  writeFileSync(wordsOutputPath, JSON.stringify(wordEntries, null, 2), "utf8");
   rmSync(tempRoot, { recursive: true, force: true });
 
-  process.stdout.write(`Generated OCR index: ${outputPath} (${outputEntries.length} entries)\n`);
+  process.stdout.write(
+    `Generated OCR index: ${outputPath} (${outputEntries.length} entries, lines:${lineEntries.length}, words:${wordEntries.length})\n`
+  );
 }
 
 main();
-

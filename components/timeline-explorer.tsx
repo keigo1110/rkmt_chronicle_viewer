@@ -1,6 +1,5 @@
 "use client";
 
-import Fuse from "fuse.js";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 type BBox = [number, number, number, number];
@@ -9,6 +8,7 @@ type OcrEntry = {
   id: string;
   text: string;
   norm: string;
+  context?: string;
   bbox: BBox;
   conf: number;
   kind: "line" | "word";
@@ -61,8 +61,14 @@ export default function TimelineExplorer() {
   const osdRef = useRef<OSDViewer | null>(null);
   const activeOverlayRef = useRef<HTMLElement | null>(null);
   const initialQueryHandledRef = useRef(false);
+  const workerRef = useRef<Worker | null>(null);
+  const requestIdRef = useRef(0);
 
-  const [entries, setEntries] = useState<OcrEntry[]>([]);
+  const [lineEntries, setLineEntries] = useState<OcrEntry[]>([]);
+  const [wordEntries, setWordEntries] = useState<OcrEntry[]>([]);
+  const [wordsLoaded, setWordsLoaded] = useState(false);
+  const [wordsLoading, setWordsLoading] = useState(false);
+  const [resultIds, setResultIds] = useState<string[]>([]);
   const [isReady, setIsReady] = useState(false);
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
@@ -70,6 +76,14 @@ export default function TimelineExplorer() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const entries = useMemo(() => [...lineEntries, ...wordEntries], [lineEntries, wordEntries]);
+  const entryById = useMemo(() => new Map(entries.map((entry) => [entry.id, entry])), [entries]);
+
+  const matches = useMemo(
+    () => resultIds.map((id) => entryById.get(id)).filter((entry): entry is OcrEntry => !!entry),
+    [entryById, resultIds]
+  );
 
   useEffect(() => {
     let disposed = false;
@@ -119,6 +133,22 @@ export default function TimelineExplorer() {
   }, []);
 
   useEffect(() => {
+    const worker = new Worker(new URL("../workers/search.worker.ts", import.meta.url));
+    worker.onmessage = (event: MessageEvent<{ requestId: number; ids: string[] }>) => {
+      if (event.data.requestId !== requestIdRef.current) {
+        return;
+      }
+      setResultIds(event.data.ids);
+    };
+    workerRef.current = worker;
+
+    return () => {
+      worker.terminate();
+      workerRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
     let timer: number | null = null;
     try {
       const dismissed = window.localStorage.getItem(HINT_STORAGE_KEY) === "1";
@@ -150,15 +180,26 @@ export default function TimelineExplorer() {
   useEffect(() => {
     let cancelled = false;
 
-    async function loadEntries() {
+    async function loadLineEntries() {
       try {
-        const response = await fetch("/ocr/entries.json");
-        if (!response.ok) {
-          throw new Error(`Failed to fetch OCR index: ${response.status}`);
+        const linesResponse = await fetch("/ocr/lines.json");
+        if (linesResponse.ok) {
+          const data = (await linesResponse.json()) as OcrEntry[];
+          if (!cancelled) {
+            setLineEntries(data);
+          }
+          return;
         }
-        const data = (await response.json()) as OcrEntry[];
+
+        const legacyResponse = await fetch("/ocr/entries.json");
+        if (!legacyResponse.ok) {
+          throw new Error(`Failed to fetch OCR index: ${legacyResponse.status}`);
+        }
+        const data = (await legacyResponse.json()) as OcrEntry[];
         if (!cancelled) {
-          setEntries(data);
+          setLineEntries(data.filter((entry) => entry.kind === "line"));
+          setWordEntries(data.filter((entry) => entry.kind === "word"));
+          setWordsLoaded(true);
         }
       } catch {
         if (!cancelled) {
@@ -167,35 +208,81 @@ export default function TimelineExplorer() {
       }
     }
 
-    void loadEntries();
+    void loadLineEntries();
     return () => {
       cancelled = true;
     };
   }, []);
 
-  const fuse = useMemo(() => {
-    if (entries.length === 0) {
-      return null;
+  useEffect(() => {
+    if (wordsLoaded || wordsLoading) {
+      return;
     }
-    return new Fuse(entries, {
-      includeScore: true,
-      threshold: 0.28,
-      ignoreLocation: true,
-      minMatchCharLength: 2,
-      keys: [
-        { name: "norm", weight: 0.75 },
-        { name: "text", weight: 0.25 }
-      ]
+    if (!isSearchOpen && query.length < 2) {
+      return;
+    }
+
+    let cancelled = false;
+    setWordsLoading(true);
+
+    async function loadWordEntries() {
+      try {
+        const response = await fetch("/ocr/words.json");
+        if (!response.ok) {
+          throw new Error(`Failed to fetch word index: ${response.status}`);
+        }
+        const data = (await response.json()) as OcrEntry[];
+        if (!cancelled) {
+          setWordEntries(data);
+          setWordsLoaded(true);
+        }
+      } catch {
+        if (!cancelled) {
+          setWordsLoaded(true);
+        }
+      } finally {
+        if (!cancelled) {
+          setWordsLoading(false);
+        }
+      }
+    }
+
+    void loadWordEntries();
+    return () => {
+      cancelled = true;
+    };
+  }, [isSearchOpen, query.length, wordsLoaded, wordsLoading]);
+
+  useEffect(() => {
+    if (!workerRef.current) {
+      return;
+    }
+    workerRef.current.postMessage({
+      type: "init",
+      entries
     });
   }, [entries]);
 
-  const matches = useMemo(() => {
-    const q = normalizeQuery(query);
-    if (!q || !fuse) {
-      return [];
+  useEffect(() => {
+    if (!workerRef.current) {
+      return;
     }
-    return fuse.search(q).map((item) => item.item);
-  }, [fuse, query]);
+
+    const normalized = normalizeQuery(query);
+    if (!normalized) {
+      requestIdRef.current += 1;
+      setResultIds([]);
+      return;
+    }
+
+    requestIdRef.current += 1;
+    workerRef.current.postMessage({
+      type: "query",
+      requestId: requestIdRef.current,
+      query: normalized,
+      limit: 300
+    });
+  }, [query, entries.length]);
 
   const visibleMatches = matches.slice(0, MAX_SUGGESTIONS);
   const normalizedQuery = normalizeQuery(query);
@@ -203,54 +290,12 @@ export default function TimelineExplorer() {
     visibleMatches.length === 0 ? 0 : Math.min(activeIndex, visibleMatches.length - 1);
   const shouldShowSuggestions = isSearchOpen && isInputFocused && query.length > 0;
 
-  const lineEntries = useMemo(
-    () => entries.filter((entry) => entry.kind === "line"),
-    [entries]
-  );
-
-  const wordContextMap = useMemo(() => {
-    const map = new Map<string, string>();
-
-    for (const entry of entries) {
-      if (entry.kind !== "word") {
-        continue;
-      }
-
-      const [x, y, w, h] = entry.bbox;
-      const centerX = x + w / 2;
-      const centerY = y + h / 2;
-
-      let selectedLine: OcrEntry | null = null;
-      let selectedArea = Number.POSITIVE_INFINITY;
-
-      for (const line of lineEntries) {
-        const [lx, ly, lw, lh] = line.bbox;
-        const containsX = centerX >= lx && centerX <= lx + lw;
-        const containsY = centerY >= ly && centerY <= ly + lh;
-        if (!containsX || !containsY) {
-          continue;
-        }
-        const area = lw * lh;
-        if (area < selectedArea) {
-          selectedArea = area;
-          selectedLine = line;
-        }
-      }
-
-      if (selectedLine) {
-        map.set(entry.id, selectedLine.text);
-      }
-    }
-
-    return map;
-  }, [entries, lineEntries]);
-
   const getSuggestionContext = useCallback(
     (entry: OcrEntry) => {
-      const source = entry.kind === "word" ? wordContextMap.get(entry.id) ?? entry.text : entry.text;
+      const source = entry.context ?? entry.text;
       return clipContext(source, normalizedQuery);
     },
-    [normalizedQuery, wordContextMap]
+    [normalizedQuery]
   );
 
   const clearOverlay = useCallback(() => {
